@@ -366,6 +366,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4958768003243698}
   - component: {fileID: 95009975456352968}
+  - component: {fileID: 114937042347675804}
   m_Layer: 0
   m_Name: Nave
   m_TagString: Untagged
@@ -1052,15 +1053,15 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1713251723036666}
-  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: -17.05, y: 0, z: 10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4144613517950716}
   - {fileID: 4329712548917796}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!4 &4962496998666214
 Transform:
   m_ObjectHideFlags: 1
@@ -1134,6 +1135,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &114937042347675804
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1713251723036666}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab6245770db4802458971c338dfb0435, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Bala: {fileID: 1401000701024628, guid: d713f88ef29e5724f8faa521d206af77, type: 2}
+  Velocidad: {x: 0, y: 10, z: 0}
 --- !u!137 &137997627295516196
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1

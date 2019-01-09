@@ -1,7 +1,7 @@
 fileFormatVersion: 2
-guid: 06b4bb44fd848ee49a4a6aede39a25d1
+guid: da66decec0783964f9ad98d2ace9105d
 ModelImporter:
-  serializedVersion: 22
+  serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
     100002: CH_Enemy1_Eye
@@ -147,17 +147,7 @@ ModelImporter:
     4300050: CH_Enemy1_Pelvis
     4300052: CH_Enemy1_Neck
     4300054: CH_Enemy1_Head
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: SH_ENE1_Cuerpo
-    second: {fileID: 2100000, guid: 20e0fda4ef862db42860044df0268910, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: SH_ENE1_Ojo
-    second: {fileID: 2100000, guid: 83292cb540e408948a18a1da841ab47d, type: 2}
+  externalObjects: {}
   materials:
     importMaterials: 1
     materialName: 0
@@ -208,6 +198,8 @@ ModelImporter:
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
