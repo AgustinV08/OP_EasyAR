@@ -1,0 +1,237 @@
+fileFormatVersion: 2
+guid: 14e2d34d2811de0449a94e7927eba90d
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: BEN_ENE1_Cabeza
+    100002: BEN_ENE1_Ojo
+    100004: BEN_ENE1_Pelvis
+    100006: BEN_ENE1_Pierna_DD06
+    100008: BEN_ENE1_Pierna_DI06
+    100010: BEN_ENE1_Pierna_TD06
+    100012: BEN_ENE1_Pierna_TI06
+    100014: BN_ENE1_Cabeza
+    100016: BN_ENE1_Cuello
+    100018: BN_ENE1_Ojo
+    100020: BN_ENE1_Pelvis
+    100022: BN_ENE1_Pierna_DD00
+    100024: BN_ENE1_Pierna_DD01
+    100026: BN_ENE1_Pierna_DD02
+    100028: BN_ENE1_Pierna_DD03
+    100030: BN_ENE1_Pierna_DD04
+    100032: BN_ENE1_Pierna_DD05
+    100034: BN_ENE1_Pierna_DI00
+    100036: BN_ENE1_Pierna_DI01
+    100038: BN_ENE1_Pierna_DI02
+    100040: BN_ENE1_Pierna_DI03
+    100042: BN_ENE1_Pierna_DI04
+    100044: BN_ENE1_Pierna_DI05
+    100046: BN_ENE1_Pierna_TD00
+    100048: BN_ENE1_Pierna_TD01
+    100050: BN_ENE1_Pierna_TD02
+    100052: BN_ENE1_Pierna_TD03
+    100054: BN_ENE1_Pierna_TD04
+    100056: BN_ENE1_Pierna_TD05
+    100058: BN_ENE1_Pierna_TI00
+    100060: BN_ENE1_Pierna_TI01
+    100062: BN_ENE1_Pierna_TI02
+    100064: BN_ENE1_Pierna_TI03
+    100066: BN_ENE1_Pierna_TI04
+    100068: BN_ENE1_Pierna_TI05
+    100070: CH_Enemigo1
+    100072: CTR_ENE1_Cabeza
+    100074: CTR_ENE1_Cintura
+    100076: CTR_ENE1_Cuello
+    100078: CTR_ENE1_General
+    100080: CTR_ENE1_Ojo00
+    100082: CTR_ENE1_Ojo01
+    100084: CTR_ENE1_Ojo02
+    100086: CTR_ENE1_Ojo_00
+    100088: CTR_ENE1_Pelvis
+    100090: CTR_ENE1_PiernaDD
+    100092: CTR_ENE1_PiernaDI
+    100094: CTR_ENE1_Piernas
+    100096: CTR_ENE1_PiernaTD
+    100098: CTR_ENE1_PiernaTI
+    100100: CTR_ENE1_RodillaDD
+    100102: CTR_ENE1_RodillaDI
+    100104: CTR_ENE1_RodillaTD
+    100106: CTR_ENE1_RodillaTI
+    100108: IK Chain001
+    100110: IK Chain002
+    100112: IK_ENE1_PiernaDD
+    100114: IK_Ene1_PiernaDI
+    100116: //RootNode
+    100118: PTCTR_ENE1_Cabeza
+    100120: PTCTR_ENE1_Cintura
+    100122: PTCTR_ENE1_Cuello
+    100124: PTCTR_ENE1_Ojo02
+    100126: PTCTR_ENE1_Pelvis
+    100128: PTCTR_ENE1_Pierna_DD
+    100130: PTCTR_ENE1_Pierna_DI
+    100132: PTCTR_ENE1_Pierna_TD
+    100134: PTCTR_ENE1_Pierna_TI
+    400000: BEN_ENE1_Cabeza
+    400002: BEN_ENE1_Ojo
+    400004: BEN_ENE1_Pelvis
+    400006: BEN_ENE1_Pierna_DD06
+    400008: BEN_ENE1_Pierna_DI06
+    400010: BEN_ENE1_Pierna_TD06
+    400012: BEN_ENE1_Pierna_TI06
+    400014: BN_ENE1_Cabeza
+    400016: BN_ENE1_Cuello
+    400018: BN_ENE1_Ojo
+    400020: BN_ENE1_Pelvis
+    400022: BN_ENE1_Pierna_DD00
+    400024: BN_ENE1_Pierna_DD01
+    400026: BN_ENE1_Pierna_DD02
+    400028: BN_ENE1_Pierna_DD03
+    400030: BN_ENE1_Pierna_DD04
+    400032: BN_ENE1_Pierna_DD05
+    400034: BN_ENE1_Pierna_DI00
+    400036: BN_ENE1_Pierna_DI01
+    400038: BN_ENE1_Pierna_DI02
+    400040: BN_ENE1_Pierna_DI03
+    400042: BN_ENE1_Pierna_DI04
+    400044: BN_ENE1_Pierna_DI05
+    400046: BN_ENE1_Pierna_TD00
+    400048: BN_ENE1_Pierna_TD01
+    400050: BN_ENE1_Pierna_TD02
+    400052: BN_ENE1_Pierna_TD03
+    400054: BN_ENE1_Pierna_TD04
+    400056: BN_ENE1_Pierna_TD05
+    400058: BN_ENE1_Pierna_TI00
+    400060: BN_ENE1_Pierna_TI01
+    400062: BN_ENE1_Pierna_TI02
+    400064: BN_ENE1_Pierna_TI03
+    400066: BN_ENE1_Pierna_TI04
+    400068: BN_ENE1_Pierna_TI05
+    400070: CH_Enemigo1
+    400072: CTR_ENE1_Cabeza
+    400074: CTR_ENE1_Cintura
+    400076: CTR_ENE1_Cuello
+    400078: CTR_ENE1_General
+    400080: CTR_ENE1_Ojo00
+    400082: CTR_ENE1_Ojo01
+    400084: CTR_ENE1_Ojo02
+    400086: CTR_ENE1_Ojo_00
+    400088: CTR_ENE1_Pelvis
+    400090: CTR_ENE1_PiernaDD
+    400092: CTR_ENE1_PiernaDI
+    400094: CTR_ENE1_Piernas
+    400096: CTR_ENE1_PiernaTD
+    400098: CTR_ENE1_PiernaTI
+    400100: CTR_ENE1_RodillaDD
+    400102: CTR_ENE1_RodillaDI
+    400104: CTR_ENE1_RodillaTD
+    400106: CTR_ENE1_RodillaTI
+    400108: IK Chain001
+    400110: IK Chain002
+    400112: IK_ENE1_PiernaDD
+    400114: IK_Ene1_PiernaDI
+    400116: //RootNode
+    400118: PTCTR_ENE1_Cabeza
+    400120: PTCTR_ENE1_Cintura
+    400122: PTCTR_ENE1_Cuello
+    400124: PTCTR_ENE1_Ojo02
+    400126: PTCTR_ENE1_Pelvis
+    400128: PTCTR_ENE1_Pierna_DD
+    400130: PTCTR_ENE1_Pierna_DI
+    400132: PTCTR_ENE1_Pierna_TD
+    400134: PTCTR_ENE1_Pierna_TI
+    2100000: SH_ENE1_Cuerpo
+    2100002: SH_ENE1_Ojo
+    4300000: CH_Enemigo1
+    9500000: //RootNode
+    13700000: CH_Enemigo1
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SH_ENE1_Cuerpo
+    second: {fileID: 2100000, guid: 20e0fda4ef862db42860044df0268910, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SH_ENE1_Ojo
+    second: {fileID: 2100000, guid: 83292cb540e408948a18a1da841ab47d, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

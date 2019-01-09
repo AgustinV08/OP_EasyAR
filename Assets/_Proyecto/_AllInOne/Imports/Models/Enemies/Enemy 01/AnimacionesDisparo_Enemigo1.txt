@@ -1,0 +1,52 @@
+Enemigo 1: 
+
+**Animación detecta a Player 1**
++ Frame 0 a 80
+
+**Disparo Frontal**
+Primer Animación Frame 80 a 107 
+Loop del Frame 107 al frame 85
+Start Bullet:85 al 100
+Loop Bullet:100 al 101
+
+**Disparo Frontal 45°**
+Primer Animación Frame 120 a 147
+Loop del Frame 147 al frame 125
+Start Bullet:125 al 140
+Loop Bullet:140 al 141
+
+**Disparo Lateral Izquierdo**
+Primer Animación Frame 170 a 197
+Loop del Frame 197 al frame 175
+Start Bullet:175 al 190
+Loop Bullet:190 al 191
+
+**Disparo Trasero Izquierdo**
+Primer Animación Frame 210 a 237
+Loop del Frame 237 al frame 215
+Start Bullet:215 al 230
+Loop Bullet:230 al 231
+
+**Disparo Trasero**
+Primer Animación Frame 240 a 267
+Loop del Frame 267 al frame 245
+Start Bullet:245 al 260
+Loop Bullet:260 al 261
+
+**Disparo Trasero Derecho**
+Primer Animación Frame 270 a 297
+Loop del Frame 297 al frame 275
+Start Bullet:275 al 290
+Loop Bullet:290 al 291
+
+**Disparo Derecho**
+Primer Animación Frame 300 a 327
+Loop del Frame 327 al frame 305
+Start Bullet:305 al 320
+Loop Bullet:320 al 321
+
+**Disparo Fronta -45°**
+Primer Animación Frame 330 a 357
+Loop del Frame 357 al frame 335
+Start Bullet:335 al 350
+Loop Bullet:350 al 351

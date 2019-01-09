@@ -1,0 +1,171 @@
+fileFormatVersion: 2
+guid: e1aa15f52ff15b64fb855d6344178fdd
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: BEN_Nave_00
+    100002: BEN_Nave_01
+    100004: BN_Nave_Alla_Der_00
+    100006: BN_Nave_Alla_Der_01
+    100008: BN_Nave_Alla_Izq_00
+    100010: BN_Nave_Alla_Izq_01
+    100012: BN_Nave_AllaB_Der_00
+    100014: BN_Nave_AllaB_Der_01
+    100016: BN_Nave_AllaB_Der_02
+    100018: BN_Nave_AllaB_Izq_00
+    100020: BN_Nave_AllaB_Izq_01
+    100022: BN_Nave_AllaB_Izq_02
+    100024: CTR_Nave_Ala01_Der
+    100026: CTR_Nave_Ala01_Izq
+    100028: CTR_Nave_Ala02_Der
+    100030: CTR_Nave_Ala02_Izq
+    100032: CTR_Nave_AlaB01_Der
+    100034: CTR_Nave_AlaB01_Izq
+    100036: CTR_Nave_AlaB02_Der
+    100038: CTR_Nave_AlaB02_Izq
+    100040: CTR_Nave_AlaB03_Der
+    100042: CTR_Nave_AlaB03_Izq
+    100044: CTR_Nave_GRAL
+    100046: //RootNode
+    100048: Nave
+    100050: Point001
+    100052: Point003
+    100054: Point004
+    100056: Point006
+    100058: Point007
+    100060: Point008
+    100062: Point009
+    100064: Point010
+    100066: Point011
+    100068: Point012
+    100070: Point013
+    100072: Point014
+    100074: Point015
+    400000: BEN_Nave_00
+    400002: BEN_Nave_01
+    400004: BN_Nave_Alla_Der_00
+    400006: BN_Nave_Alla_Der_01
+    400008: BN_Nave_Alla_Izq_00
+    400010: BN_Nave_Alla_Izq_01
+    400012: BN_Nave_AllaB_Der_00
+    400014: BN_Nave_AllaB_Der_01
+    400016: BN_Nave_AllaB_Der_02
+    400018: BN_Nave_AllaB_Izq_00
+    400020: BN_Nave_AllaB_Izq_01
+    400022: BN_Nave_AllaB_Izq_02
+    400024: CTR_Nave_Ala01_Der
+    400026: CTR_Nave_Ala01_Izq
+    400028: CTR_Nave_Ala02_Der
+    400030: CTR_Nave_Ala02_Izq
+    400032: CTR_Nave_AlaB01_Der
+    400034: CTR_Nave_AlaB01_Izq
+    400036: CTR_Nave_AlaB02_Der
+    400038: CTR_Nave_AlaB02_Izq
+    400040: CTR_Nave_AlaB03_Der
+    400042: CTR_Nave_AlaB03_Izq
+    400044: CTR_Nave_GRAL
+    400046: //RootNode
+    400048: Nave
+    400050: Point001
+    400052: Point003
+    400054: Point004
+    400056: Point006
+    400058: Point007
+    400060: Point008
+    400062: Point009
+    400064: Point010
+    400066: Point011
+    400068: Point012
+    400070: Point013
+    400072: Point014
+    400074: Point015
+    2100000: SH_Nave
+    4300000: Nave
+    9500000: //RootNode
+    13700000: Nave
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SH_Nave
+    second: {fileID: 2100000, guid: a294ac22e5f53a44ebc5bf75c6e29556, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

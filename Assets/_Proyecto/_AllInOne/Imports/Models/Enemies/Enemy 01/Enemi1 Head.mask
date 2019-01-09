@@ -1,0 +1,146 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Enemi1 Head
+  m_Mask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: CH_Enemigo1
+    m_Weight: 1
+  - m_Path: CTR_ENE1_General
+    m_Weight: 1
+  - m_Path: CTR_ENE1_General/BN_ENE1_Cuello
+    m_Weight: 1
+  - m_Path: CTR_ENE1_General/BN_ENE1_Cuello/BN_ENE1_Cabeza
+    m_Weight: 1
+  - m_Path: CTR_ENE1_General/BN_ENE1_Cuello/BN_ENE1_Cabeza/BEN_ENE1_Cabeza
+    m_Weight: 1
+  - m_Path: CTR_ENE1_General/BN_ENE1_Cuello/BN_ENE1_Cabeza/BN_ENE1_Ojo
+    m_Weight: 0
+  - m_Path: CTR_ENE1_General/BN_ENE1_Cuello/BN_ENE1_Cabeza/BN_ENE1_Ojo/BEN_ENE1_Ojo
+    m_Weight: 0
+  - m_Path: CTR_ENE1_General/BN_ENE1_Pelvis
+    m_Weight: 0
+  - m_Path: CTR_ENE1_General/BN_ENE1_Pelvis/BEN_ENE1_Pelvis
+    m_Weight: 0
+  - m_Path: CTR_ENE1_General/BN_ENE1_Pelvis/BN_ENE1_Pierna_DD00
+    m_Weight: 0
+  - m_Path: CTR_ENE1_General/BN_ENE1_Pelvis/BN_ENE1_Pierna_DD00/BN_ENE1_Pierna_DD01
+    m_Weight: 0
+  - m_Path: CTR_ENE1_General/BN_ENE1_Pelvis/BN_ENE1_Pierna_DD00/BN_ENE1_Pierna_DD01/BN_ENE1_Pierna_DD02
+    m_Weight: 0
+  - m_Path: CTR_ENE1_General/BN_ENE1_Pelvis/BN_ENE1_Pierna_DD00/BN_ENE1_Pierna_DD01/BN_ENE1_Pierna_DD02/BN_ENE1_Pierna_DD03
+    m_Weight: 0
+  - m_Path: CTR_ENE1_General/BN_ENE1_Pelvis/BN_ENE1_Pierna_DD00/BN_ENE1_Pierna_DD01/BN_ENE1_Pierna_DD02/BN_ENE1_Pierna_DD03/BN_ENE1_Pierna_DD04
+    m_Weight: 0
+  - m_Path: CTR_ENE1_General/BN_ENE1_Pelvis/BN_ENE1_Pierna_DD00/BN_ENE1_Pierna_DD01/BN_ENE1_Pierna_DD02/BN_ENE1_Pierna_DD03/BN_ENE1_Pierna_DD04/BN_ENE1_Pierna_DD05
+    m_Weight: 0
+  - m_Path: CTR_ENE1_General/BN_ENE1_Pelvis/BN_ENE1_Pierna_DD00/BN_ENE1_Pierna_DD01/BN_ENE1_Pierna_DD02/BN_ENE1_Pierna_DD03/BN_ENE1_Pierna_DD04/BN_ENE1_Pierna_DD05/BEN_ENE1_Pierna_DD06
+    m_Weight: 0
+  - m_Path: CTR_ENE1_General/BN_ENE1_Pelvis/BN_ENE1_Pierna_DI00
+    m_Weight: 0
+  - m_Path: CTR_ENE1_General/BN_ENE1_Pelvis/BN_ENE1_Pierna_DI00/BN_ENE1_Pierna_DI01
+    m_Weight: 0
+  - m_Path: CTR_ENE1_General/BN_ENE1_Pelvis/BN_ENE1_Pierna_DI00/BN_ENE1_Pierna_DI01/BN_ENE1_Pierna_DI02
+    m_Weight: 0
+  - m_Path: CTR_ENE1_General/BN_ENE1_Pelvis/BN_ENE1_Pierna_DI00/BN_ENE1_Pierna_DI01/BN_ENE1_Pierna_DI02/BN_ENE1_Pierna_DI03
+    m_Weight: 0
+  - m_Path: CTR_ENE1_General/BN_ENE1_Pelvis/BN_ENE1_Pierna_DI00/BN_ENE1_Pierna_DI01/BN_ENE1_Pierna_DI02/BN_ENE1_Pierna_DI03/BN_ENE1_Pierna_DI04
+    m_Weight: 0
+  - m_Path: CTR_ENE1_General/BN_ENE1_Pelvis/BN_ENE1_Pierna_DI00/BN_ENE1_Pierna_DI01/BN_ENE1_Pierna_DI02/BN_ENE1_Pierna_DI03/BN_ENE1_Pierna_DI04/BN_ENE1_Pierna_DI05
+    m_Weight: 0
+  - m_Path: CTR_ENE1_General/BN_ENE1_Pelvis/BN_ENE1_Pierna_DI00/BN_ENE1_Pierna_DI01/BN_ENE1_Pierna_DI02/BN_ENE1_Pierna_DI03/BN_ENE1_Pierna_DI04/BN_ENE1_Pierna_DI05/BEN_ENE1_Pierna_DI06
+    m_Weight: 0
+  - m_Path: CTR_ENE1_General/BN_ENE1_Pelvis/BN_ENE1_Pierna_TD00
+    m_Weight: 0
+  - m_Path: CTR_ENE1_General/BN_ENE1_Pelvis/BN_ENE1_Pierna_TD00/BN_ENE1_Pierna_TD01
+    m_Weight: 0
+  - m_Path: CTR_ENE1_General/BN_ENE1_Pelvis/BN_ENE1_Pierna_TD00/BN_ENE1_Pierna_TD01/BN_ENE1_Pierna_TD02
+    m_Weight: 0
+  - m_Path: CTR_ENE1_General/BN_ENE1_Pelvis/BN_ENE1_Pierna_TD00/BN_ENE1_Pierna_TD01/BN_ENE1_Pierna_TD02/BN_ENE1_Pierna_TD03
+    m_Weight: 0
+  - m_Path: CTR_ENE1_General/BN_ENE1_Pelvis/BN_ENE1_Pierna_TD00/BN_ENE1_Pierna_TD01/BN_ENE1_Pierna_TD02/BN_ENE1_Pierna_TD03/BN_ENE1_Pierna_TD04
+    m_Weight: 0
+  - m_Path: CTR_ENE1_General/BN_ENE1_Pelvis/BN_ENE1_Pierna_TD00/BN_ENE1_Pierna_TD01/BN_ENE1_Pierna_TD02/BN_ENE1_Pierna_TD03/BN_ENE1_Pierna_TD04/BN_ENE1_Pierna_TD05
+    m_Weight: 0
+  - m_Path: CTR_ENE1_General/BN_ENE1_Pelvis/BN_ENE1_Pierna_TD00/BN_ENE1_Pierna_TD01/BN_ENE1_Pierna_TD02/BN_ENE1_Pierna_TD03/BN_ENE1_Pierna_TD04/BN_ENE1_Pierna_TD05/BEN_ENE1_Pierna_TD06
+    m_Weight: 0
+  - m_Path: CTR_ENE1_General/BN_ENE1_Pelvis/BN_ENE1_Pierna_TI00
+    m_Weight: 0
+  - m_Path: CTR_ENE1_General/BN_ENE1_Pelvis/BN_ENE1_Pierna_TI00/BN_ENE1_Pierna_TI01
+    m_Weight: 0
+  - m_Path: CTR_ENE1_General/BN_ENE1_Pelvis/BN_ENE1_Pierna_TI00/BN_ENE1_Pierna_TI01/BN_ENE1_Pierna_TI02
+    m_Weight: 0
+  - m_Path: CTR_ENE1_General/BN_ENE1_Pelvis/BN_ENE1_Pierna_TI00/BN_ENE1_Pierna_TI01/BN_ENE1_Pierna_TI02/BN_ENE1_Pierna_TI03
+    m_Weight: 0
+  - m_Path: CTR_ENE1_General/BN_ENE1_Pelvis/BN_ENE1_Pierna_TI00/BN_ENE1_Pierna_TI01/BN_ENE1_Pierna_TI02/BN_ENE1_Pierna_TI03/BN_ENE1_Pierna_TI04
+    m_Weight: 0
+  - m_Path: CTR_ENE1_General/BN_ENE1_Pelvis/BN_ENE1_Pierna_TI00/BN_ENE1_Pierna_TI01/BN_ENE1_Pierna_TI02/BN_ENE1_Pierna_TI03/BN_ENE1_Pierna_TI04/BN_ENE1_Pierna_TI05
+    m_Weight: 0
+  - m_Path: CTR_ENE1_General/BN_ENE1_Pelvis/BN_ENE1_Pierna_TI00/BN_ENE1_Pierna_TI01/BN_ENE1_Pierna_TI02/BN_ENE1_Pierna_TI03/BN_ENE1_Pierna_TI04/BN_ENE1_Pierna_TI05/BEN_ENE1_Pierna_TI06
+    m_Weight: 0
+  - m_Path: CTR_ENE1_General/CTR_ENE1_Cintura
+    m_Weight: 0
+  - m_Path: CTR_ENE1_General/CTR_ENE1_Cintura/PTCTR_ENE1_Cintura
+    m_Weight: 0
+  - m_Path: CTR_ENE1_General/CTR_ENE1_Cintura/PTCTR_ENE1_Cintura/CTR_ENE1_Cuello
+    m_Weight: 0
+  - m_Path: CTR_ENE1_General/CTR_ENE1_Cintura/PTCTR_ENE1_Cintura/CTR_ENE1_Cuello/PTCTR_ENE1_Cuello
+    m_Weight: 0
+  - m_Path: CTR_ENE1_General/CTR_ENE1_Cintura/PTCTR_ENE1_Cintura/CTR_ENE1_Cuello/PTCTR_ENE1_Cuello/CTR_ENE1_Cabeza
+    m_Weight: 0
+  - m_Path: CTR_ENE1_General/CTR_ENE1_Cintura/PTCTR_ENE1_Cintura/CTR_ENE1_Cuello/PTCTR_ENE1_Cuello/CTR_ENE1_Cabeza/PTCTR_ENE1_Cabeza
+    m_Weight: 0
+  - m_Path: CTR_ENE1_General/CTR_ENE1_Cintura/PTCTR_ENE1_Cintura/CTR_ENE1_Cuello/PTCTR_ENE1_Cuello/CTR_ENE1_Cabeza/PTCTR_ENE1_Cabeza/CTR_ENE1_Ojo00
+    m_Weight: 0
+  - m_Path: CTR_ENE1_General/CTR_ENE1_Cintura/PTCTR_ENE1_Cintura/CTR_ENE1_Pelvis
+    m_Weight: 0
+  - m_Path: CTR_ENE1_General/CTR_ENE1_Cintura/PTCTR_ENE1_Cintura/CTR_ENE1_Pelvis/PTCTR_ENE1_Pelvis
+    m_Weight: 0
+  - m_Path: CTR_ENE1_General/CTR_ENE1_Cintura/PTCTR_ENE1_Cintura/CTR_ENE1_Pelvis/PTCTR_ENE1_Pelvis/PTCTR_ENE1_Pierna_DD
+    m_Weight: 0
+  - m_Path: CTR_ENE1_General/CTR_ENE1_Cintura/PTCTR_ENE1_Cintura/CTR_ENE1_Pelvis/PTCTR_ENE1_Pelvis/PTCTR_ENE1_Pierna_DI
+    m_Weight: 0
+  - m_Path: CTR_ENE1_General/CTR_ENE1_Cintura/PTCTR_ENE1_Cintura/CTR_ENE1_Pelvis/PTCTR_ENE1_Pelvis/PTCTR_ENE1_Pierna_TD
+    m_Weight: 0
+  - m_Path: CTR_ENE1_General/CTR_ENE1_Cintura/PTCTR_ENE1_Cintura/CTR_ENE1_Pelvis/PTCTR_ENE1_Pelvis/PTCTR_ENE1_Pierna_TI
+    m_Weight: 0
+  - m_Path: CTR_ENE1_General/CTR_ENE1_Ojo_00
+    m_Weight: 0
+  - m_Path: CTR_ENE1_General/CTR_ENE1_Ojo_00/CTR_ENE1_Ojo01
+    m_Weight: 0
+  - m_Path: CTR_ENE1_General/CTR_ENE1_Ojo_00/CTR_ENE1_Ojo01/CTR_ENE1_Ojo02
+    m_Weight: 0
+  - m_Path: CTR_ENE1_General/CTR_ENE1_Ojo_00/CTR_ENE1_Ojo01/PTCTR_ENE1_Ojo02
+    m_Weight: 0
+  - m_Path: CTR_ENE1_General/CTR_ENE1_Piernas
+    m_Weight: 0
+  - m_Path: CTR_ENE1_General/CTR_ENE1_Piernas/CTR_ENE1_PiernaDD
+    m_Weight: 0
+  - m_Path: CTR_ENE1_General/CTR_ENE1_Piernas/CTR_ENE1_PiernaDD/CTR_ENE1_RodillaDD
+    m_Weight: 0
+  - m_Path: CTR_ENE1_General/CTR_ENE1_Piernas/CTR_ENE1_PiernaDI
+    m_Weight: 0
+  - m_Path: CTR_ENE1_General/CTR_ENE1_Piernas/CTR_ENE1_PiernaDI/CTR_ENE1_RodillaDI
+    m_Weight: 0
+  - m_Path: CTR_ENE1_General/CTR_ENE1_Piernas/CTR_ENE1_PiernaTD
+    m_Weight: 0
+  - m_Path: CTR_ENE1_General/CTR_ENE1_Piernas/CTR_ENE1_PiernaTD/CTR_ENE1_RodillaTD
+    m_Weight: 0
+  - m_Path: CTR_ENE1_General/CTR_ENE1_Piernas/CTR_ENE1_PiernaTI
+    m_Weight: 0
+  - m_Path: CTR_ENE1_General/CTR_ENE1_Piernas/CTR_ENE1_PiernaTI/CTR_ENE1_RodillaTI
+    m_Weight: 0
+  - m_Path: CTR_ENE1_General/IK Chain001
+    m_Weight: 0
+  - m_Path: CTR_ENE1_General/IK Chain002
+    m_Weight: 0
+  - m_Path: CTR_ENE1_General/IK_ENE1_PiernaDD
+    m_Weight: 0
+  - m_Path: CTR_ENE1_General/IK_Ene1_PiernaDI
+    m_Weight: 0

@@ -1,0 +1,177 @@
+fileFormatVersion: 2
+guid: 9674d2a8334fddd4c837f7227be0fc5c
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: CH_Enemy6_Body_1
+    100002: CH_Enemy6_Body_2
+    100004: CH_Enemy6_Body_3
+    100006: CH_Enemy6_Gun_F
+    100008: CH_Enemy6_Gun_L
+    100010: CH_Enemy6_Gun_R
+    100012: CH_Enemy6_Turbina_L
+    100014: CH_Enemy6_Turbina_R
+    100016: CH_Enemy6_TurbinaB1_F
+    100018: CH_Enemy6_TurbinaB2_F
+    100020: CH_Enemy6_TurbinaB_L
+    100022: CH_Enemy6_TurbinaT_R
+    100024: CTR_Enemy6_Gun_F
+    100026: CTR_Enemy6_Gun_L
+    100028: CTR_Enemy6_Gun_R
+    100030: CTR_Enemy6_Pelvis
+    100032: CTR_Enemy6_Turbina_L
+    100034: CTR_Enemy6_Turbina_R
+    100036: CTR_Enemy6_TurbinaB1_F
+    100038: CTR_Enemy6_TurbinaB2_F
+    100040: CTR_Enemy6_TurbinaB_L
+    100042: CTR_Enemy6_Turbinas_GRL
+    100044: CTR_Enemy6_TurbinaT_R
+    100046: //RootNode
+    400000: CH_Enemy6_Body_1
+    400002: CH_Enemy6_Body_2
+    400004: CH_Enemy6_Body_3
+    400006: CH_Enemy6_Gun_F
+    400008: CH_Enemy6_Gun_L
+    400010: CH_Enemy6_Gun_R
+    400012: CH_Enemy6_Turbina_L
+    400014: CH_Enemy6_Turbina_R
+    400016: CH_Enemy6_TurbinaB1_F
+    400018: CH_Enemy6_TurbinaB2_F
+    400020: CH_Enemy6_TurbinaB_L
+    400022: CH_Enemy6_TurbinaT_R
+    400024: CTR_Enemy6_Gun_F
+    400026: CTR_Enemy6_Gun_L
+    400028: CTR_Enemy6_Gun_R
+    400030: CTR_Enemy6_Pelvis
+    400032: CTR_Enemy6_Turbina_L
+    400034: CTR_Enemy6_Turbina_R
+    400036: CTR_Enemy6_TurbinaB1_F
+    400038: CTR_Enemy6_TurbinaB2_F
+    400040: CTR_Enemy6_TurbinaB_L
+    400042: CTR_Enemy6_Turbinas_GRL
+    400044: CTR_Enemy6_TurbinaT_R
+    400046: //RootNode
+    2100000: SH_Enemy6
+    2300000: CH_Enemy6_Body_1
+    2300002: CH_Enemy6_Body_2
+    2300004: CH_Enemy6_Body_3
+    2300006: CH_Enemy6_Gun_F
+    2300008: CH_Enemy6_Gun_L
+    2300010: CH_Enemy6_Gun_R
+    2300012: CH_Enemy6_Turbina_L
+    2300014: CH_Enemy6_Turbina_R
+    2300016: CH_Enemy6_TurbinaB1_F
+    2300018: CH_Enemy6_TurbinaB2_F
+    2300020: CH_Enemy6_TurbinaB_L
+    2300022: CH_Enemy6_TurbinaT_R
+    3300000: CH_Enemy6_Body_1
+    3300002: CH_Enemy6_Body_2
+    3300004: CH_Enemy6_Body_3
+    3300006: CH_Enemy6_Gun_F
+    3300008: CH_Enemy6_Gun_L
+    3300010: CH_Enemy6_Gun_R
+    3300012: CH_Enemy6_Turbina_L
+    3300014: CH_Enemy6_Turbina_R
+    3300016: CH_Enemy6_TurbinaB1_F
+    3300018: CH_Enemy6_TurbinaB2_F
+    3300020: CH_Enemy6_TurbinaB_L
+    3300022: CH_Enemy6_TurbinaT_R
+    4300000: CH_Enemy6_Gun_F
+    4300002: CH_Enemy6_Gun_R
+    4300004: CH_Enemy6_Gun_L
+    4300006: CH_Enemy6_Turbina_L
+    4300008: CH_Enemy6_Turbina_R
+    4300010: CH_Enemy6_TurbinaT_R
+    4300012: CH_Enemy6_TurbinaB1_F
+    4300014: CH_Enemy6_TurbinaB_L
+    4300016: CH_Enemy6_TurbinaB2_F
+    4300018: CH_Enemy6_Body_2
+    4300020: CH_Enemy6_Body_1
+    4300022: CH_Enemy6_Body_3
+    9500000: //RootNode
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SH_Enemy6
+    second: {fileID: 2100000, guid: 2ba2000305c828c4993e9b96a56bff00, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

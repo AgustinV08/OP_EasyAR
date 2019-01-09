@@ -1,0 +1,7 @@
+Brazos cerrados 0-1
+Brazos abiertos 5-6
+Brazos wigle 20-89
+Brazos cerrados 120-121
+
+Cabeza rota 130-190
+Cabeza wigle 200 - 380
