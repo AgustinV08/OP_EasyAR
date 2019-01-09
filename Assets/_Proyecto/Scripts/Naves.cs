@@ -72,8 +72,5 @@ public class Naves : MonoBehaviour
 		go.GetComponent<Rigidbody>().AddForce(transform.forward * 1000);
 		
 		StartCoroutine("LoopDisparo");
-		
-		
-		
 	}
 }
