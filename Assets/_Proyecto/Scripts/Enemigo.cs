@@ -45,7 +45,7 @@ public class Enemigo : MonoBehaviour {
 		}
 		
 		// Si no hay ninguna Bala no activa en escena, cargamos el prefab
-		GameObject Prefab_Bala = Resources.Load<GameObject>("Sphere");
+		GameObject Prefab_Bala = Resources.Load<GameObject>("Bala");
 		
 		// Creamos el prefab en escena
 		GameObject go = Instantiate(Prefab_Bala, transform.position, Quaternion.identity);
@@ -154,6 +154,6 @@ public class Enemigo : MonoBehaviour {
 		
 		transform.Rotate(new Vector3(transform.rotation.x, transform.rotation.y + 90, transform.rotation.z), Space.Self);
 		
-		StartCoroutine("Rotacion");
+		StartCoroutine("Rotacion", time);
 	}
 }

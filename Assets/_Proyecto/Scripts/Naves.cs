@@ -29,7 +29,7 @@ public class Naves : MonoBehaviour
 			}
 		}
 		
-		GameObject Prefab_Bala = Resources.Load<GameObject>("Sphere");
+		GameObject Prefab_Bala = Resources.Load<GameObject>("Bala");
 		GameObject go = Instantiate(Prefab_Bala, new Vector3(transform.position.x + 10, transform.position.y, transform.position.z), Quaternion.identity);
 		Bala.Add(go);
 		return go;

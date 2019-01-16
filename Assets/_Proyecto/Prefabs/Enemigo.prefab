@@ -1998,7 +1998,7 @@ Animator:
   m_GameObject: {fileID: 1810173958912994}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 14e2d34d2811de0449a94e7927eba90d, type: 3}
-  m_Controller: {fileID: 9100000, guid: 01c9087f017384d448519dcbe295fa68, type: 2}
+  m_Controller: {fileID: 9100000, guid: d5a5399940e60484faca67cf9abdb964, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -2018,7 +2018,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cb5f3bab9c88bd45a0eacc1f3ef1c2b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FireRate: 5
+  FireRate: 2
   Direccion: {x: 0, y: 0, z: 0}
   EsperaCombate: 5
 --- !u!137 &137132718322249876
