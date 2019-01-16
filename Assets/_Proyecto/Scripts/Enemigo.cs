@@ -147,12 +147,12 @@ public class Enemigo : MonoBehaviour {
 		
 		StartCoroutine(EnCombate(EsperaCombate));
 	}
-	
-	IEnumerator Rotacion(float time)
-	{
-		yield return new WaitForSeconds(time);
+
+    IEnumerator Rotacion(float time)
+    {
+        yield return new WaitForSeconds(time);
 		
-		transform.Rotate(new Vector3(transform.rotation.x, transform.rotation.y + 90, transform.rotation.z), Space.Self);
+		transform.Rotate(new Vector3(transform.rotation.x, transform.rotation.y + 90, transform.rotation.z));
 		
 		StartCoroutine("Rotacion", time);
 	}
