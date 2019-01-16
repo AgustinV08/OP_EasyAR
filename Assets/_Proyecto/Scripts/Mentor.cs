@@ -71,7 +71,7 @@ public class Mentor : MonoBehaviour
 	{
 		EnAnimacion = true;
 		
-		yield return new WaitForSeconds(2.0f);
+		yield return new WaitForSeconds(1.0f);
 		
 		anim.SetTrigger("Saludar");
 		

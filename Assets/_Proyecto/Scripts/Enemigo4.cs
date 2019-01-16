@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class Enemigo4 : MonoBehaviour 
 {
-	
 	Animator anim;
 	
 	// Tiempo que la nave dispara
@@ -31,9 +30,9 @@ public class Enemigo4 : MonoBehaviour
 				return Bala[i];
 			}
 		}
-		
-		GameObject Prefab_Bala = Resources.Load<GameObject>("Sphere");
-		GameObject go = Instantiate(Prefab_Bala, new Vector3(transform.position.x, transform.position.y, transform.position.z), Quaternion.identity);
+
+        GameObject Prefab_Bala = Resources.Load<GameObject>("Bala");
+        GameObject go = Instantiate(Prefab_Bala, new Vector3(transform.position.x, transform.position.y, transform.position.z), Quaternion.identity);
 		Bala.Add(go);
 		return go;
 	}
