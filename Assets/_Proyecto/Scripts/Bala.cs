@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class Bala : MonoBehaviour 
 {
-	
 	public float TiempoEspera;
 	
 	float TiempoOriginal;

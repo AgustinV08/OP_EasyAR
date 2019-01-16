@@ -151,9 +151,29 @@ public class Enemigo : MonoBehaviour {
     IEnumerator Rotacion(float time)
     {
         yield return new WaitForSeconds(time);
+
+        float Original = gameObject.transform.rotation.y;
+
+        //StartCoroutine("CheckRotationY", Original + 90);
 		
 		transform.Rotate(new Vector3(transform.rotation.x, transform.rotation.y + 90, transform.rotation.z));
 		
 		StartCoroutine("Rotacion", time);
 	}
+    
+    IEnumerator CheckRotationY( float RotacionDeseada)
+    {
+        float RotacionOriginal = transform.rotation.y;
+
+        if(RotacionOriginal < RotacionDeseada)
+        {
+            transform.Rotate(new Vector3(transform.rotation.x, transform.rotation.y + 25, transform.rotation.z));
+
+            RotacionOriginal = gameObject.transform.rotation.y;
+
+            StartCoroutine("CheckRotationY", RotacionDeseada);
+        }
+
+        yield return null;
+    }
 }
