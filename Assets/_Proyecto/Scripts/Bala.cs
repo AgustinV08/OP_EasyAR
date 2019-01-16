@@ -4,12 +4,15 @@ using UnityEngine;
 
 public class Bala : MonoBehaviour 
 {
-	float TiempoEspera;
+	
+	public float TiempoEspera;
+	
+	float TiempoOriginal;
 
 	// Use this for initialization
 	void Start () 
 	{
-		TiempoEspera = 5.0f;
+		TiempoOriginal = TiempoEspera;
 	}
 	
 	// Update is called once per frame
@@ -17,9 +20,11 @@ public class Bala : MonoBehaviour
 	{
 		TiempoEspera -= Time.deltaTime;
 		
+		// Cuando se acaba el tiempo de espera apagamos el objeto por cuestiones de memoria y optimizacion
 		if(TiempoEspera <= 0.0f)
 		{
 			gameObject.SetActive(false);
+			TiempoEspera = TiempoOriginal;
 		}
 	}
 }
