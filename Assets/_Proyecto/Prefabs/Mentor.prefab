@@ -142,13 +142,14 @@ GameObject:
   m_Component:
   - component: {fileID: 4564277306881190}
   - component: {fileID: 95512467400308158}
+  - component: {fileID: 114778564339304760}
   m_Layer: 0
   m_Name: Mentor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &1373728885489218
 GameObject:
   m_ObjectHideFlags: 0
@@ -487,15 +488,15 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1361566216982618}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.7873163, y: 4.9070644, z: -17.158535}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: 0, y: -1.53, z: -5.95}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4906763927744392}
   - {fileID: 4998192613843692}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!4 &4644023349043352
 Transform:
   m_ObjectHideFlags: 1
@@ -921,6 +922,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &114778564339304760
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1361566216982618}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4893aa78eb9ba746be17d4c0084d825, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FireRate: 2
+  Velocidad: {x: 0, y: 0, z: 0}
 --- !u!137 &137855502496952790
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1
