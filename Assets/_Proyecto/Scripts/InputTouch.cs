@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class InputTouch : MonoBehaviour
 {
-    public Camera cam;
+    public GameObject Bala;
 
     // Start is called before the first frame update
     void Start()
@@ -21,6 +21,11 @@ public class InputTouch : MonoBehaviour
             if(Input.GetTouch(0).phase == TouchPhase.Began)
             {
                 Debug.Log("Input Start");
+
+                Vector3 Posicion = Camera.main.ScreenToWorldPoint(Input.GetTouch(0).position);
+                Posicion.z = 0f;
+                GameObject go = Instantiate(Bala, Posicion, Quaternion.identity);
+                go.GetComponent<Rigidbody>().AddForce(1000 * transform.forward);
             }
 
             // El input se esta moviendo por la pantalla
@@ -32,7 +37,12 @@ public class InputTouch : MonoBehaviour
             // El input se quedo tocando la pantalla sin moverse
             if(Input.GetTouch(0).phase == TouchPhase.Stationary)
             {
+                Debug.Log("Input Stationary");
 
+                Vector3 Posicion = Camera.main.ScreenToWorldPoint(Input.GetTouch(0).position);
+                Posicion.z = 0f;
+                GameObject go = Instantiate(Bala, Posicion, Quaternion.identity);
+                go.GetComponent<Rigidbody>().AddForce(1000 * transform.forward);
             }
 
             // El input termino
