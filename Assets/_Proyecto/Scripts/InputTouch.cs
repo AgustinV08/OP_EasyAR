@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class InputTouch : MonoBehaviour
 {
-    // De esta manera solo funciona si la camara esta en 2D
-
     public GameObject Bala;
 
     public Camera cam;
@@ -30,7 +28,7 @@ public class InputTouch : MonoBehaviour
 
                 // Camara 2D
 
-                /*Vector3 Posicion = Camera.main.ScreenToWorldPoint(Input.GetTouch(0).position);
+                /*Vector3 Posicion = cam.ScreenToWorldPoint(Input.GetTouch(0).position);
                 Posicion.z = 0f;
                 GameObject go = Instantiate(Bala, Posicion, Quaternion.identity);*/
 
@@ -38,15 +36,21 @@ public class InputTouch : MonoBehaviour
 
                 RaycastHit hit;
 
-                Touch touch = Input.GetTouch(0);
+                Vector3 touchPos = Input.GetTouch(0).position;
 
-                Vector3 Posicion = cam.ScreenToWorldPoint(touch.position);
+                Vector3 Posicion;
+                //Vector3 Posicion = touchPos;
 
-                Ray rayo = cam.ScreenPointToRay(touch.position);
+                Ray rayo = cam.ScreenPointToRay(touchPos);
 
                 if (Physics.Raycast(rayo, out hit, Mathf.Infinity, mascara))
                 {
-                    Posicion.z = hit.transform.position.z;
+                    Posicion = hit.transform.position + rayo.direction * 5;
+                    Posicion.z = 0;
+
+                    //Debug.Log("Posicion: " + Posicion);
+                    //Debug.Log("rayo: " + rayo);
+                    //Debug.Log("hit: " + hit.transform.position);
 
                     Instantiate(Bala, Posicion, Quaternion.identity);
                 }
