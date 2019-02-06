@@ -23,6 +23,20 @@ public class InputForce : MonoBehaviour
             if (Input.GetTouch(0).phase == TouchPhase.Began)
             {
                 //Debug.Log("Input Start");
+
+                RaycastHit hit;
+
+                Vector3 touchPos = Input.GetTouch(0).position;
+
+                Vector3 Posicion;
+
+                Ray rayo = cam.ScreenPointToRay(touchPos);
+
+                if (Physics.Raycast(rayo, out hit, Mathf.Infinity, mascara))
+                {
+                    Posicion = hit.transform.position + rayo.direction * 5;
+                    Posicion.z = 0;
+                }
             }
 
             // El input se esta moviendo por la pantalla
