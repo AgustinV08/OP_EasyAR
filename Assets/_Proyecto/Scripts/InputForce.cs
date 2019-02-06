@@ -34,8 +34,7 @@ public class InputForce : MonoBehaviour
 
                 if (Physics.Raycast(rayo, out hit, Mathf.Infinity, mascara))
                 {
-                    Posicion = hit.transform.position + rayo.direction * 5;
-                    Posicion.z = 0;
+                    hit.rigidbody.AddForce(1000 * rayo.direction);
                 }
             }
 
