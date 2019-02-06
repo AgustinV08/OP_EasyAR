@@ -4,14 +4,17 @@ using UnityEngine;
 
 public class InputForce : MonoBehaviour
 {
+    // Camara en escena
     public Camera cam;
 
+    // Layer que recibira la colision del Raycast
     public LayerMask mascara;
 
     // Start is called before the first frame update
     void Start()
     {
-
+        // Lo igualamos a la camara que ya tenemos en escena
+        cam = Camera.main;
     }
 
     // Update is called once per frame
@@ -24,16 +27,19 @@ public class InputForce : MonoBehaviour
             {
                 //Debug.Log("Input Start");
 
+                // Generamos una variable para saber cuando el Raycast ya colisiono con un objeto
                 RaycastHit hit;
 
+                // Posicion del toque en la pantalla
                 Vector3 touchPos = Input.GetTouch(0).position;
 
-                Vector3 Posicion;
-
+                // Generamos el raycast en la posicion donde tocamos la pantalla
                 Ray rayo = cam.ScreenPointToRay(touchPos);
 
+                // Si el Raycast colisiono con el layer indicado
                 if (Physics.Raycast(rayo, out hit, Mathf.Infinity, mascara))
                 {
+                    // Al objeto lo empujamos en la direccion donde lo tocamos
                     hit.rigidbody.AddForce(1000 * rayo.direction);
                 }
             }
