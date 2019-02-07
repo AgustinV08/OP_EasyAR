@@ -1,15 +1,20 @@
 fileFormatVersion: 2
-guid: 0acba416b0f1ce141967982d4ea47399
+guid: b0c2469cc322d904591fce1fa8539496
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
     400000: //RootNode
-    2100000: SHD_bandera
+    2100000: MAT_Banderica
     2300000: //RootNode
     3300000: //RootNode
     4300000: G_Bandera
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Banderica
+    second: {fileID: 2100000, guid: a7751589b4fa41c45b954a97bff6e3cd, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
