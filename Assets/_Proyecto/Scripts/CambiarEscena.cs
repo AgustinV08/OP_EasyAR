@@ -14,7 +14,13 @@ public class CambiarEscena : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        //Experiencia de usuario
+        // Al apretar el buton de atras la aplicacion se cierra
+        // Si esta parte del codigo, la aplicacion se queda ahi aunque se apriete el boton para salir
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Application.Quit();
+        }
     }
 
     public void ChangeScene(string Scene)
