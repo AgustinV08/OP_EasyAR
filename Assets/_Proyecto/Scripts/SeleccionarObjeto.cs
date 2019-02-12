@@ -22,7 +22,7 @@ public class SeleccionarObjeto : MonoBehaviour
                 // Camara 2D
                 
                 // Guadamos la posicion del touch
-                Vector3 touchPos = cam.ScreenToWorldPoint(Input.GetTouch(0).position);
+                /*Vector3 touchPos = cam.ScreenToWorldPoint(Input.GetTouch(0).position);
                 touchPos.z = 0;
                 
                 // Variable que guarda la informacion del objeto que seleccionaremos
@@ -36,20 +36,22 @@ public class SeleccionarObjeto : MonoBehaviour
                 {
                     // Su posicion sera igual a la posicion de donde tocamos la pantalla
                     hit.transform.position = touchPos;
-                }
+                }*/
 
                 //Camara 3D
-                /*RaycastHit hit;
+                RaycastHit hit;
 
                 Vector3 touchPos = Input.GetTouch(0).position;
                 touchPos.z = 0;
                 
-                Ray rayo = cam.ScreenPointToRay(Input.GetTouch(0).position);
+                Ray rayo = cam.ScreenPointToRay(touchPos);
 
                 if (Physics.Raycast(rayo, out hit, Mathf.Infinity, mascara))
                 {
+                    touchPos = hit.point;
+                    touchPos.z = 0;
                     hit.transform.position = touchPos;
-                }*/
+                }
         }
     }
 }
