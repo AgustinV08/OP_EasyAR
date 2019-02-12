@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Proyecto/Scenes/Agustin/TouchesCamara.unity
     guid: b5ad67aa6aa37534ca28141f0cf9c38d
+  - enabled: 1
+    path: Assets/_Proyecto/Scenes/Agustin/TouchesSelect.unity
+    guid: 31145f3f3ae055341a4bdce49cf92f6b
   m_configObjects: {}

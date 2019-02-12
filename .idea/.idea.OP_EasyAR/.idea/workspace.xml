@@ -31,9 +31,7 @@
     </treeState>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0a1af01-8e15-4e64-8668-273d0b5d5162" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/_Proyecto/Scripts/SeleccionarObjeto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Proyecto/Scripts/SeleccionarObjeto.cs" afterDir="false" />
-    </list>
+    <list default="true" id="d0a1af01-8e15-4e64-8668-273d0b5d5162" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -295,12 +293,12 @@
       <updated>1549902177525</updated>
       <workItem from="1549902232577" duration="9098000" />
       <workItem from="1549916142031" duration="66000" />
-      <workItem from="1549985231372" duration="5474000" />
+      <workItem from="1549985231372" duration="5546000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14638000" />
+    <option name="totallyTimeSpent" value="14710000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
