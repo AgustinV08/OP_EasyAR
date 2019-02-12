@@ -36,10 +36,13 @@ public class MoverCamara : MonoBehaviour
             }
         }
 
+        // Si ya hay un input en la pantalla
         if (Input.touchCount > 1)
         {
+            // Y este input esta estacional
             if (Input.GetTouch(0).phase == TouchPhase.Stationary)
             {
+                // Al mover el siguiente input por la pantalla
                 if (Input.GetTouch(1).phase == TouchPhase.Moved)
                 {
                     // Aqui se rotara la camara

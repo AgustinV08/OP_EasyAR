@@ -13,7 +13,7 @@
             <e p="InputForce.cs" t="Include" />
             <e p="InputTouch.cs" t="Include" />
             <e p="MoverCamara.cs" t="Include" />
-            <e p="ScreenOrientation.cs" t="Include" />
+            <e p="SeleccionarObjeto.cs" t="Include" />
           </e>
         </e>
         <e p="EasyAR" t="Include">

@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 
 public class InputTouch : MonoBehaviour
@@ -56,7 +57,7 @@ public class InputTouch : MonoBehaviour
                 if (Physics.Raycast(rayo, out hit, Mathf.Infinity, mascara))
                 {
                     // La posicion del objeto sera la posicion del objeto con el layer
-                    Posicion = hit.transform.position + rayo.direction * 5;
+                    Posicion = hit.point;
                     Posicion.z = 0;
 
                     // Creamos el objeto

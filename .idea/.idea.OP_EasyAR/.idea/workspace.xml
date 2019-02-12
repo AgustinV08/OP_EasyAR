@@ -32,15 +32,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0a1af01-8e15-4e64-8668-273d0b5d5162" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.OP_EasyAR/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.OP_EasyAR/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.OP_EasyAR/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.OP_EasyAR/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.OP_EasyAR/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.OP_EasyAR/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.OP_EasyAR/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.OP_EasyAR/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Proyecto/Scenes/Agustin/EasyAR_Prueba.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Proyecto/Scenes/Agustin/EasyAR_Prueba.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Proyecto/Scenes/Agustin/Touches.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Proyecto/Scenes/Agustin/Touches.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Proyecto/Scenes/Agustin/TouchesForce.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Proyecto/Scenes/Agustin/TouchesForce.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Proyecto/Scripts/CambiarEscena.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Proyecto/Scripts/CambiarEscena.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Proyecto/Scripts/InputTouch.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Proyecto/Scripts/InputTouch.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Proyecto/Scripts/MoverCamara.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Proyecto/Scripts/MoverCamara.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,97 +46,149 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/_Proyecto/Scripts/MoverCamara.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-              <folding>
-                <marker date="1549909757495" expanded="true" signature="6:78" ph="..." />
-                <marker date="1549909757495" expanded="true" signature="120:1796" ph="{...}" />
-                <marker date="1549909757495" expanded="true" signature="256:277" ph="{...}" />
-                <marker date="1549909757495" expanded="true" signature="335:1794" ph="{...}" />
-                <marker date="1549909757495" expanded="true" signature="375:1164" ph="{...}" />
-                <marker date="1549909757495" expanded="true" signature="446:1154" ph="{...}" />
-                <marker date="1549909757495" expanded="true" signature="477:582" ph="/* Aqui se empezara a mover la camara ... */" />
-                <marker date="1549909757495" expanded="true" signature="895:1140" ph="/* transform.position = new Vector3( ... */" />
-                <marker date="1549909757495" expanded="true" signature="1199:1788" ph="{...}" />
-                <marker date="1549909757495" expanded="true" signature="1275:1778" ph="{...}" />
-                <marker date="1549909757495" expanded="true" signature="1354:1764" ph="{...}" />
-                <marker date="1549909757495" expanded="true" signature="1393:1495" ph="/* Aqui se rotara la camara ... */" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/_Proyecto/Scripts/InputTouch.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="29" lean-forward="true" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
-              <folding>
-                <marker date="1549481304639" expanded="true" signature="6:78" ph="..." />
-                <marker date="1549481304639" expanded="true" signature="119:3191" ph="{...}" />
-                <marker date="1549481304639" expanded="true" signature="423:462" ph="{...}" />
-                <marker date="1549481304639" expanded="true" signature="520:3189" ph="{...}" />
-                <marker date="1549481304639" expanded="true" signature="559:3183" ph="{...}" />
-                <marker date="1549481304639" expanded="true" signature="671:2127" ph="{...}" />
-                <marker date="1549481304639" expanded="true" signature="702:871" ph="/* Debug.Log(&quot;Input Start&quot;); ... */" />
-                <marker date="1549481304639" expanded="true" signature="888:1131" ph="/* Vector3 Posicion = cam.ScreenToWorldPoint(Input.GetTouch(0).position); ... */" />
-                <marker date="1549481304639" expanded="true" signature="1149:1223" ph="/* Camara 3D ... */" />
-                <marker date="1549481304639" expanded="true" signature="1766:2113" ph="{...}" />
-                <marker date="1549481304639" expanded="true" signature="2246:2319" ph="{...}" />
-                <marker date="1549481304639" expanded="true" signature="2450:3008" ph="{...}" />
-                <marker date="1549481304639" expanded="true" signature="2481:2609" ph="/* Debug.Log(&quot;Input Stationary&quot;); ... */" />
-                <marker date="1549481304639" expanded="true" signature="2626:2994" ph="/* Vector3 Posicion = Camera.main.ScreenToWorldPoint(Input.GetTouch(0).position); ... */" />
-                <marker date="1549481304639" expanded="true" signature="3101:3173" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/_Proyecto/Scripts/InputForce.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-              <folding>
-                <marker date="1549481304609" expanded="false" signature="6:78" ph="..." />
-                <marker date="1549481304609" expanded="true" signature="119:2001" ph="{...}" />
-                <marker date="1549481304609" expanded="true" signature="320:420" ph="{...}" />
-                <marker date="1549481304609" expanded="true" signature="478:1999" ph="{...}" />
-                <marker date="1549481304609" expanded="true" signature="518:1993" ph="{...}" />
-                <marker date="1549481304609" expanded="true" signature="630:1416" ph="{...}" />
-                <marker date="1549481304609" expanded="true" signature="661:787" ph="/* Debug.Log(&quot;Input Start&quot;); ... */" />
-                <marker date="1549481304609" expanded="true" signature="1220:1402" ph="{...}" />
-                <marker date="1549481304609" expanded="true" signature="1535:1608" ph="{...}" />
-                <marker date="1549481304609" expanded="true" signature="1740:1817" ph="{...}" />
-                <marker date="1549481304609" expanded="true" signature="1911:1983" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/_Proyecto/Scripts/CambiarEscena.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
-              <folding>
-                <marker date="1549904430546" expanded="false" signature="6:113" ph="..." />
-                <marker date="1549904430546" expanded="true" signature="157:713" ph="{...}" />
-                <marker date="1549904430546" expanded="true" signature="229:250" ph="{...}" />
-                <marker date="1549904430546" expanded="true" signature="308:617" ph="{...}" />
-                <marker date="1549904430546" expanded="true" signature="323:513" ph="/* Experiencia de usuario ... */" />
-                <marker date="1549904430546" expanded="true" signature="559:611" ph="{...}" />
-                <marker date="1549904430546" expanded="true" signature="660:711" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Assets/_Proyecto/Scripts/SeleccionarObjeto.cs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="174">
+                  <caret line="25" column="31" lean-forward="true" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+                  <folding>
+                    <marker date="1549989619634" expanded="false" signature="6:78" ph="..." />
+                    <marker date="1549989619634" expanded="true" signature="126:1307" ph="{...}" />
+                    <marker date="1549989619634" expanded="true" signature="257:296" ph="{...}" />
+                    <marker date="1549989619634" expanded="true" signature="354:1305" ph="{...}" />
+                    <marker date="1549989619634" expanded="true" signature="394:1299" ph="{...}" />
+                    <marker date="1549989619634" expanded="true" signature="773:864" ph="{...}" />
+                    <marker date="1549989619634" expanded="true" signature="911:1289" ph="/* RaycastHit hit; ... */" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Assets/_Proyecto/Scripts/InputTouch.cs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="102">
+                  <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+                  <folding>
+                    <marker date="1549987595004" expanded="true" signature="6:97" ph="..." />
+                    <marker date="1549987595004" expanded="true" signature="138:3176" ph="{...}" />
+                    <marker date="1549987595004" expanded="true" signature="442:481" ph="{...}" />
+                    <marker date="1549987595004" expanded="true" signature="539:3174" ph="{...}" />
+                    <marker date="1549987595004" expanded="true" signature="578:3168" ph="{...}" />
+                    <marker date="1549987595004" expanded="true" signature="690:2112" ph="{...}" />
+                    <marker date="1549987595004" expanded="true" signature="721:890" ph="/* Debug.Log(&quot;Input Start&quot;); ... */" />
+                    <marker date="1549987595004" expanded="true" signature="907:1150" ph="/* Vector3 Posicion = cam.ScreenToWorldPoint(Input.GetTouch(0).position); ... */" />
+                    <marker date="1549987595004" expanded="true" signature="1168:1242" ph="/* Camara 3D ... */" />
+                    <marker date="1549987595004" expanded="true" signature="1785:2098" ph="{...}" />
+                    <marker date="1549987595004" expanded="true" signature="2231:2304" ph="{...}" />
+                    <marker date="1549987595004" expanded="true" signature="2435:2993" ph="{...}" />
+                    <marker date="1549987595004" expanded="true" signature="2466:2594" ph="/* Debug.Log(&quot;Input Stationary&quot;); ... */" />
+                    <marker date="1549987595004" expanded="true" signature="2611:2979" ph="/* Vector3 Posicion = Camera.main.ScreenToWorldPoint(Input.GetTouch(0).position); ... */" />
+                    <marker date="1549987595004" expanded="true" signature="3086:3158" ph="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Assets/_Proyecto/Scripts/MoverCamara.cs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="187">
+                  <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+                  <folding>
+                    <marker date="1549985736315" expanded="true" signature="6:78" ph="..." />
+                    <marker date="1549985736315" expanded="true" signature="120:1948" ph="{...}" />
+                    <marker date="1549985736315" expanded="true" signature="256:277" ph="{...}" />
+                    <marker date="1549985736315" expanded="true" signature="335:1946" ph="{...}" />
+                    <marker date="1549985736315" expanded="true" signature="375:1164" ph="{...}" />
+                    <marker date="1549985736315" expanded="true" signature="446:1154" ph="{...}" />
+                    <marker date="1549985736315" expanded="true" signature="477:582" ph="/* Aqui se empezara a mover la camara ... */" />
+                    <marker date="1549985736315" expanded="true" signature="895:1140" ph="/* transform.position = new Vector3( ... */" />
+                    <marker date="1549985736315" expanded="true" signature="1244:1940" ph="{...}" />
+                    <marker date="1549985736315" expanded="true" signature="1364:1930" ph="{...}" />
+                    <marker date="1549985736315" expanded="true" signature="1506:1916" ph="{...}" />
+                    <marker date="1549985736315" expanded="true" signature="1545:1647" ph="/* Aqui se rotara la camara ... */" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Assets/_Proyecto/Scripts/InputForce.cs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state>
+                  <caret column="6" lean-forward="true" selection-start-column="6" selection-end-column="6" />
+                  <folding>
+                    <marker date="1549915344784" expanded="true" signature="6:78" ph="..." />
+                    <marker date="1549915344784" expanded="true" signature="119:2001" ph="{...}" />
+                    <marker date="1549915344784" expanded="true" signature="320:420" ph="{...}" />
+                    <marker date="1549915344784" expanded="true" signature="478:1999" ph="{...}" />
+                    <marker date="1549915344784" expanded="true" signature="518:1993" ph="{...}" />
+                    <marker date="1549915344784" expanded="true" signature="630:1416" ph="{...}" />
+                    <marker date="1549915344784" expanded="true" signature="661:787" ph="/* Debug.Log(&quot;Input Start&quot;); ... */" />
+                    <marker date="1549915344784" expanded="true" signature="1220:1402" ph="{...}" />
+                    <marker date="1549915344784" expanded="true" signature="1535:1608" ph="{...}" />
+                    <marker date="1549915344784" expanded="true" signature="1740:1817" ph="{...}" />
+                    <marker date="1549915344784" expanded="true" signature="1911:1983" ph="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Assets/_Proyecto/Scripts/CambiarEscena.cs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="391">
+                  <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+                  <folding>
+                    <marker date="1549915344688" expanded="true" signature="6:113" ph="..." />
+                    <marker date="1549915344688" expanded="true" signature="157:713" ph="{...}" />
+                    <marker date="1549915344688" expanded="true" signature="229:250" ph="{...}" />
+                    <marker date="1549915344688" expanded="true" signature="308:617" ph="{...}" />
+                    <marker date="1549915344688" expanded="true" signature="323:513" ph="/* Experiencia de usuario ... */" />
+                    <marker date="1549915344688" expanded="true" signature="559:611" ph="{...}" />
+                    <marker date="1549915344688" expanded="true" signature="660:711" ph="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Assets/_Proyecto/Scripts/InputTouch.cs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="497">
+                  <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+                  <folding>
+                    <marker date="1549987595004" expanded="false" signature="6:97" ph="..." />
+                    <marker date="1549987595004" expanded="true" signature="138:3176" ph="{...}" />
+                    <marker date="1549987595004" expanded="true" signature="442:481" ph="{...}" />
+                    <marker date="1549987595004" expanded="true" signature="539:3174" ph="{...}" />
+                    <marker date="1549987595004" expanded="true" signature="578:3168" ph="{...}" />
+                    <marker date="1549987595004" expanded="true" signature="690:2112" ph="{...}" />
+                    <marker date="1549987595004" expanded="true" signature="721:890" ph="/* Debug.Log(&quot;Input Start&quot;); ... */" />
+                    <marker date="1549987595004" expanded="true" signature="907:1150" ph="/* Vector3 Posicion = cam.ScreenToWorldPoint(Input.GetTouch(0).position); ... */" />
+                    <marker date="1549987595004" expanded="true" signature="1168:1242" ph="/* Camara 3D ... */" />
+                    <marker date="1549987595004" expanded="true" signature="1785:2098" ph="{...}" />
+                    <marker date="1549987595004" expanded="true" signature="2231:2304" ph="{...}" />
+                    <marker date="1549987595004" expanded="true" signature="2435:2993" ph="{...}" />
+                    <marker date="1549987595004" expanded="true" signature="2466:2594" ph="/* Debug.Log(&quot;Input Stationary&quot;); ... */" />
+                    <marker date="1549987595004" expanded="true" signature="2611:2979" ph="/* Vector3 Posicion = Camera.main.ScreenToWorldPoint(Input.GetTouch(0).position); ... */" />
+                    <marker date="1549987595004" expanded="true" signature="3086:3158" ph="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -150,21 +198,24 @@
     <setting file="file://$PROJECT_DIR$/Assets/_Proyecto/Scripts/MoverCamara.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Proyecto/Scripts/InputTouch.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_Proyecto/Scripts/InputForce.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_Proyecto/Scripts/SeleccionarObjeto.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/_Proyecto/Scripts/CambiarEscena.cs" />
-        <option value="$PROJECT_DIR$/Assets/_Proyecto/Scripts/MoverCamara.cs" />
         <option value="$PROJECT_DIR$/Assets/_Proyecto/Scripts/ScreenOrientation.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Proyecto/Scripts/MoverCamara.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Proyecto/Scripts/InputTouch.cs" />
+        <option value="$PROJECT_DIR$/Assets/_Proyecto/Scripts/SeleccionarObjeto.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="240" />
-    <option name="y" value="128" />
+    <option name="y" value="126" />
     <option name="width" value="1440" />
-    <option name="height" value="773" />
+    <option name="height" value="775" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -172,6 +223,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
+      </pane>
+      <pane id="FileSystemExplorer" />
       <pane id="AssemblyExplorer" />
       <pane id="UnityExplorer">
         <subPane>
@@ -196,10 +251,6 @@
         </subPane>
         <option name="show-hidden-items" value="false" />
         <option name="show-project-names" value="true" />
-      </pane>
-      <pane id="FileSystemExplorer" />
-      <pane id="SolutionExplorer">
-        <option name="show-all-files" value="false" />
       </pane>
     </panes>
   </component>
@@ -247,11 +298,13 @@
       <option name="presentableId" value="Default" />
       <updated>1549902177525</updated>
       <workItem from="1549902232577" duration="9098000" />
+      <workItem from="1549916142031" duration="66000" />
+      <workItem from="1549985231372" duration="4457000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9098000" />
+    <option name="totallyTimeSpent" value="13621000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -264,22 +317,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Image Layers" />
-      <window_info id="Capture Tool" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1375839" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13087249" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="NuGet" weight="0.3286119" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Unity" weight="0.3286119" />
-      <window_info anchor="bottom" id="Version Control" weight="0.3286119" />
-      <window_info anchor="bottom" id="Unit Tests" weight="0.3286119" />
-      <window_info anchor="bottom" id="TeamCity" weight="0.3286119" />
-      <window_info anchor="bottom" id="Event Log" sideWeight="0.50067115" side_tool="true" weight="0.3286119" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Performance Profiler" weight="0.3286119" />
-      <window_info anchor="bottom" id="Terminal" sideWeight="0.49932885" weight="0.3286119" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -287,14 +331,55 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Errors In Solution" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Unit Tests Coverage" />
+      <window_info anchor="bottom" id="NuGet" order="7" show_stripe_button="false" weight="0.3286119" />
+      <window_info anchor="bottom" id="Performance Profiler" order="8" weight="0.3286119" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.3286119" />
+      <window_info anchor="bottom" id="Unity" order="11" weight="0.3286119" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Unit Tests" order="13" weight="0.3286119" />
+      <window_info anchor="bottom" id="TeamCity" order="14" weight="0.3286119" />
+      <window_info anchor="bottom" id="Event Log" order="15" sideWeight="0.50067115" side_tool="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Terminal" order="16" sideWeight="0.49932885" weight="0.3286119" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Errors In Solution" order="5" weight="0.3295302" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="6" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14161074" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
+      <window_info anchor="bottom" id="NuGet" order="7" show_stripe_button="false" weight="0.3286119" />
+      <window_info anchor="bottom" id="Performance Profiler" order="8" weight="0.3286119" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.3286119" />
+      <window_info anchor="bottom" id="Unity" order="11" weight="0.3286119" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Unit Tests" order="13" weight="0.3286119" />
+      <window_info anchor="bottom" id="TeamCity" order="14" weight="0.3286119" />
+      <window_info anchor="bottom" id="Event Log" order="15" sideWeight="0.50067115" side_tool="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Terminal" order="16" sideWeight="0.49932885" weight="0.3286119" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Errors In Solution" order="5" weight="0.3295302" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="6" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -312,91 +397,101 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/_Proyecto/Scripts/CambiarEscena.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/_Proyecto/Scripts/ScreenOrientation.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/_Proyecto/Scripts/InputForce.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+        <state>
+          <caret column="6" lean-forward="true" selection-start-column="6" selection-end-column="6" />
           <folding>
-            <marker date="1549904430546" expanded="false" signature="6:113" ph="..." />
-            <marker date="1549904430546" expanded="true" signature="157:713" ph="{...}" />
-            <marker date="1549904430546" expanded="true" signature="229:250" ph="{...}" />
-            <marker date="1549904430546" expanded="true" signature="308:617" ph="{...}" />
-            <marker date="1549904430546" expanded="true" signature="323:513" ph="/* Experiencia de usuario ... */" />
-            <marker date="1549904430546" expanded="true" signature="559:611" ph="{...}" />
-            <marker date="1549904430546" expanded="true" signature="660:711" ph="{...}" />
+            <marker date="1549915344784" expanded="true" signature="6:78" ph="..." />
+            <marker date="1549915344784" expanded="true" signature="119:2001" ph="{...}" />
+            <marker date="1549915344784" expanded="true" signature="320:420" ph="{...}" />
+            <marker date="1549915344784" expanded="true" signature="478:1999" ph="{...}" />
+            <marker date="1549915344784" expanded="true" signature="518:1993" ph="{...}" />
+            <marker date="1549915344784" expanded="true" signature="630:1416" ph="{...}" />
+            <marker date="1549915344784" expanded="true" signature="661:787" ph="/* Debug.Log(&quot;Input Start&quot;); ... */" />
+            <marker date="1549915344784" expanded="true" signature="1220:1402" ph="{...}" />
+            <marker date="1549915344784" expanded="true" signature="1535:1608" ph="{...}" />
+            <marker date="1549915344784" expanded="true" signature="1740:1817" ph="{...}" />
+            <marker date="1549915344784" expanded="true" signature="1911:1983" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/_Proyecto/Scripts/InputForce.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/_Proyecto/Scripts/CambiarEscena.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state relative-caret-position="391">
+          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
           <folding>
-            <marker date="1549481304609" expanded="false" signature="6:78" ph="..." />
-            <marker date="1549481304609" expanded="true" signature="119:2001" ph="{...}" />
-            <marker date="1549481304609" expanded="true" signature="320:420" ph="{...}" />
-            <marker date="1549481304609" expanded="true" signature="478:1999" ph="{...}" />
-            <marker date="1549481304609" expanded="true" signature="518:1993" ph="{...}" />
-            <marker date="1549481304609" expanded="true" signature="630:1416" ph="{...}" />
-            <marker date="1549481304609" expanded="true" signature="661:787" ph="/* Debug.Log(&quot;Input Start&quot;); ... */" />
-            <marker date="1549481304609" expanded="true" signature="1220:1402" ph="{...}" />
-            <marker date="1549481304609" expanded="true" signature="1535:1608" ph="{...}" />
-            <marker date="1549481304609" expanded="true" signature="1740:1817" ph="{...}" />
-            <marker date="1549481304609" expanded="true" signature="1911:1983" ph="{...}" />
+            <marker date="1549915344688" expanded="true" signature="6:113" ph="..." />
+            <marker date="1549915344688" expanded="true" signature="157:713" ph="{...}" />
+            <marker date="1549915344688" expanded="true" signature="229:250" ph="{...}" />
+            <marker date="1549915344688" expanded="true" signature="308:617" ph="{...}" />
+            <marker date="1549915344688" expanded="true" signature="323:513" ph="/* Experiencia de usuario ... */" />
+            <marker date="1549915344688" expanded="true" signature="559:611" ph="{...}" />
+            <marker date="1549915344688" expanded="true" signature="660:711" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/_Proyecto/Scripts/MoverCamara.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+        <state relative-caret-position="187">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
           <folding>
-            <marker date="1549909757495" expanded="true" signature="6:78" ph="..." />
-            <marker date="1549909757495" expanded="true" signature="120:1796" ph="{...}" />
-            <marker date="1549909757495" expanded="true" signature="256:277" ph="{...}" />
-            <marker date="1549909757495" expanded="true" signature="335:1794" ph="{...}" />
-            <marker date="1549909757495" expanded="true" signature="375:1164" ph="{...}" />
-            <marker date="1549909757495" expanded="true" signature="446:1154" ph="{...}" />
-            <marker date="1549909757495" expanded="true" signature="477:582" ph="/* Aqui se empezara a mover la camara ... */" />
-            <marker date="1549909757495" expanded="true" signature="895:1140" ph="/* transform.position = new Vector3( ... */" />
-            <marker date="1549909757495" expanded="true" signature="1199:1788" ph="{...}" />
-            <marker date="1549909757495" expanded="true" signature="1275:1778" ph="{...}" />
-            <marker date="1549909757495" expanded="true" signature="1354:1764" ph="{...}" />
-            <marker date="1549909757495" expanded="true" signature="1393:1495" ph="/* Aqui se rotara la camara ... */" />
+            <marker date="1549985736315" expanded="true" signature="6:78" ph="..." />
+            <marker date="1549985736315" expanded="true" signature="120:1948" ph="{...}" />
+            <marker date="1549985736315" expanded="true" signature="256:277" ph="{...}" />
+            <marker date="1549985736315" expanded="true" signature="335:1946" ph="{...}" />
+            <marker date="1549985736315" expanded="true" signature="375:1164" ph="{...}" />
+            <marker date="1549985736315" expanded="true" signature="446:1154" ph="{...}" />
+            <marker date="1549985736315" expanded="true" signature="477:582" ph="/* Aqui se empezara a mover la camara ... */" />
+            <marker date="1549985736315" expanded="true" signature="895:1140" ph="/* transform.position = new Vector3( ... */" />
+            <marker date="1549985736315" expanded="true" signature="1244:1940" ph="{...}" />
+            <marker date="1549985736315" expanded="true" signature="1364:1930" ph="{...}" />
+            <marker date="1549985736315" expanded="true" signature="1506:1916" ph="{...}" />
+            <marker date="1549985736315" expanded="true" signature="1545:1647" ph="/* Aqui se rotara la camara ... */" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/_Proyecto/Scripts/InputTouch.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="29" lean-forward="true" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+        <state relative-caret-position="102">
+          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
           <folding>
-            <marker date="1549481304639" expanded="true" signature="6:78" ph="..." />
-            <marker date="1549481304639" expanded="true" signature="119:3191" ph="{...}" />
-            <marker date="1549481304639" expanded="true" signature="423:462" ph="{...}" />
-            <marker date="1549481304639" expanded="true" signature="520:3189" ph="{...}" />
-            <marker date="1549481304639" expanded="true" signature="559:3183" ph="{...}" />
-            <marker date="1549481304639" expanded="true" signature="671:2127" ph="{...}" />
-            <marker date="1549481304639" expanded="true" signature="702:871" ph="/* Debug.Log(&quot;Input Start&quot;); ... */" />
-            <marker date="1549481304639" expanded="true" signature="888:1131" ph="/* Vector3 Posicion = cam.ScreenToWorldPoint(Input.GetTouch(0).position); ... */" />
-            <marker date="1549481304639" expanded="true" signature="1149:1223" ph="/* Camara 3D ... */" />
-            <marker date="1549481304639" expanded="true" signature="1766:2113" ph="{...}" />
-            <marker date="1549481304639" expanded="true" signature="2246:2319" ph="{...}" />
-            <marker date="1549481304639" expanded="true" signature="2450:3008" ph="{...}" />
-            <marker date="1549481304639" expanded="true" signature="2481:2609" ph="/* Debug.Log(&quot;Input Stationary&quot;); ... */" />
-            <marker date="1549481304639" expanded="true" signature="2626:2994" ph="/* Vector3 Posicion = Camera.main.ScreenToWorldPoint(Input.GetTouch(0).position); ... */" />
-            <marker date="1549481304639" expanded="true" signature="3101:3173" ph="{...}" />
+            <marker date="1549987595004" expanded="true" signature="6:97" ph="..." />
+            <marker date="1549987595004" expanded="true" signature="138:3176" ph="{...}" />
+            <marker date="1549987595004" expanded="true" signature="442:481" ph="{...}" />
+            <marker date="1549987595004" expanded="true" signature="539:3174" ph="{...}" />
+            <marker date="1549987595004" expanded="true" signature="578:3168" ph="{...}" />
+            <marker date="1549987595004" expanded="true" signature="690:2112" ph="{...}" />
+            <marker date="1549987595004" expanded="true" signature="721:890" ph="/* Debug.Log(&quot;Input Start&quot;); ... */" />
+            <marker date="1549987595004" expanded="true" signature="907:1150" ph="/* Vector3 Posicion = cam.ScreenToWorldPoint(Input.GetTouch(0).position); ... */" />
+            <marker date="1549987595004" expanded="true" signature="1168:1242" ph="/* Camara 3D ... */" />
+            <marker date="1549987595004" expanded="true" signature="1785:2098" ph="{...}" />
+            <marker date="1549987595004" expanded="true" signature="2231:2304" ph="{...}" />
+            <marker date="1549987595004" expanded="true" signature="2435:2993" ph="{...}" />
+            <marker date="1549987595004" expanded="true" signature="2466:2594" ph="/* Debug.Log(&quot;Input Stationary&quot;); ... */" />
+            <marker date="1549987595004" expanded="true" signature="2611:2979" ph="/* Vector3 Posicion = Camera.main.ScreenToWorldPoint(Input.GetTouch(0).position); ... */" />
+            <marker date="1549987595004" expanded="true" signature="3086:3158" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/_Proyecto/Scripts/ScreenOrientation.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/_Proyecto/Scripts/SeleccionarObjeto.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="73" selection-start-line="9" selection-start-column="73" selection-end-line="9" selection-end-column="73" />
+        <state relative-caret-position="174">
+          <caret line="25" column="31" lean-forward="true" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+          <folding>
+            <marker date="1549989619634" expanded="false" signature="6:78" ph="..." />
+            <marker date="1549989619634" expanded="true" signature="126:1307" ph="{...}" />
+            <marker date="1549989619634" expanded="true" signature="257:296" ph="{...}" />
+            <marker date="1549989619634" expanded="true" signature="354:1305" ph="{...}" />
+            <marker date="1549989619634" expanded="true" signature="394:1299" ph="{...}" />
+            <marker date="1549989619634" expanded="true" signature="773:864" ph="{...}" />
+            <marker date="1549989619634" expanded="true" signature="911:1289" ph="/* RaycastHit hit; ... */" />
+          </folding>
         </state>
       </provider>
     </entry>
