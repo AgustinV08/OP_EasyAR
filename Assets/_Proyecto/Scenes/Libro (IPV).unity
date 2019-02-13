@@ -44,25 +44,25 @@ RenderSettings:
 LightmapSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 11
-  m_GIWorkflowMode: 0
+  m_GIWorkflowMode: 1
   m_GISettings:
     serializedVersion: 2
     m_BounceScale: 1
     m_IndirectOutputScale: 1
     m_AlbedoBoost: 1
-    m_EnvironmentLightingMode: 0
+    m_EnvironmentLightingMode: 1
     m_EnableBakedLightmaps: 1
     m_EnableRealtimeLightmaps: 1
   m_LightmapEditorSettings:
     serializedVersion: 10
-    m_Resolution: 2
-    m_BakeResolution: 40
+    m_Resolution: 4
+    m_BakeResolution: 80
     m_AtlasSize: 1024
-    m_AO: 0
-    m_AOMaxDistance: 1
+    m_AO: 1
+    m_AOMaxDistance: 0.25
     m_CompAOExponent: 1
     m_CompAOExponentDirect: 0
-    m_Padding: 2
+    m_Padding: 4
     m_LightmapParameters: {fileID: 0}
     m_LightmapsBakeMode: 1
     m_TextureCompression: 1
@@ -71,7 +71,7 @@ LightmapSettings:
     m_FinalGatherRayCount: 256
     m_ReflectionCompression: 2
     m_MixedBakeMode: 2
-    m_BakeBackend: 1
+    m_BakeBackend: 0
     m_PVRSampling: 1
     m_PVRDirectSampleCount: 32
     m_PVRSampleCount: 500
@@ -88,7 +88,8 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaIndirect: 2
     m_PVRFilteringAtrousPositionSigmaAO: 1
     m_ShowResolutionOverlay: 1
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: 4de8e18c7ef26a7409fed58d86053e8f,
+    type: 2}
   m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
@@ -122,6 +123,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 2edf12595c14b784fba34b93aab3833c, type: 3}
       propertyPath: m_Name
       value: MSH_Texto
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 2edf12595c14b784fba34b93aab3833c, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 2edf12595c14b784fba34b93aab3833c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -358,6 +363,30 @@ PrefabInstance:
       propertyPath: m_Name
       value: MSH_Gotas
       objectReference: {fileID: 0}
+    - target: {fileID: 100010, guid: 37fd47e932ca27e4fb576a4da86aa7a1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 37fd47e932ca27e4fb576a4da86aa7a1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 37fd47e932ca27e4fb576a4da86aa7a1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 37fd47e932ca27e4fb576a4da86aa7a1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: 37fd47e932ca27e4fb576a4da86aa7a1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100008, guid: 37fd47e932ca27e4fb576a4da86aa7a1, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400010, guid: 37fd47e932ca27e4fb576a4da86aa7a1, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -440,8 +469,8 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 0
 --- !u!199 &746641380
 ParticleSystemRenderer:
   serializedVersion: 6
@@ -587,7 +616,7 @@ ParticleSystem:
     startLifetime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.94
+      scalar: 0.54
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -640,7 +669,7 @@ ParticleSystem:
     startSpeed:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 1.5
+      scalar: 1.13
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -1337,7 +1366,7 @@ ParticleSystem:
     rateOverTime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 20
+      scalar: 30
       minScalar: 10
       maxCurve:
         serializedVersion: 2
@@ -5346,8 +5375,8 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 0
 --- !u!199 &1501837659
 ParticleSystemRenderer:
   serializedVersion: 6
@@ -5493,7 +5522,7 @@ ParticleSystem:
     startLifetime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.94
+      scalar: 0.54
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -5546,7 +5575,7 @@ ParticleSystem:
     startSpeed:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 1.54
+      scalar: 1.13
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -6243,7 +6272,7 @@ ParticleSystem:
     rateOverTime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 20
+      scalar: 30
       minScalar: 10
       maxCurve:
         serializedVersion: 2
@@ -10044,8 +10073,8 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 0
 --- !u!199 &1569185937
 ParticleSystemRenderer:
   serializedVersion: 6
@@ -10191,7 +10220,7 @@ ParticleSystem:
     startLifetime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.94
+      scalar: 0.54
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -10244,7 +10273,7 @@ ParticleSystem:
     startSpeed:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 1.54
+      scalar: 1.13
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -10941,7 +10970,7 @@ ParticleSystem:
     rateOverTime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 20
+      scalar: 30
       minScalar: 10
       maxCurve:
         serializedVersion: 2
@@ -14737,6 +14766,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MSH_Triangulo
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 3202b2d1ed68f944aa35186bb845b384, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 3202b2d1ed68f944aa35186bb845b384, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.063861944
@@ -14891,7 +14924,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
