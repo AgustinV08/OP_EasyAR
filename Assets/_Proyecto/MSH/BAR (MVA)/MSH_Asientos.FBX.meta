@@ -1,0 +1,231 @@
+fileFormatVersion: 2
+guid: da01d72b8e0490549bb8f50a584dfc12
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: G_Asiento001
+    100002: G_Asiento002
+    100004: G_Asiento003
+    100006: G_Asiento004
+    100008: G_Asiento005
+    100010: G_Asiento006
+    100012: G_Asiento007
+    100014: G_Asiento008
+    100016: G_BaseAsiento001
+    100018: G_BaseAsiento002
+    100020: G_BaseAsiento003
+    100022: G_BaseAsiento004
+    100024: G_BaseAsiento005
+    100026: G_BaseAsiento006
+    100028: G_BaseAsiento007
+    100030: G_BaseAsiento009
+    100032: G_PatasAiento002
+    100034: G_PatasAiento003
+    100036: G_PatasAiento004
+    100038: G_PatasAiento005
+    100040: G_PatasAiento006
+    100042: G_PatasAiento007
+    100044: G_PatasAiento008
+    100046: G_PatasAiento010
+    100048: //RootNode
+    400000: G_Asiento001
+    400002: G_Asiento002
+    400004: G_Asiento003
+    400006: G_Asiento004
+    400008: G_Asiento005
+    400010: G_Asiento006
+    400012: G_Asiento007
+    400014: G_Asiento008
+    400016: G_BaseAsiento001
+    400018: G_BaseAsiento002
+    400020: G_BaseAsiento003
+    400022: G_BaseAsiento004
+    400024: G_BaseAsiento005
+    400026: G_BaseAsiento006
+    400028: G_BaseAsiento007
+    400030: G_BaseAsiento009
+    400032: G_PatasAiento002
+    400034: G_PatasAiento003
+    400036: G_PatasAiento004
+    400038: G_PatasAiento005
+    400040: G_PatasAiento006
+    400042: G_PatasAiento007
+    400044: G_PatasAiento008
+    400046: G_PatasAiento010
+    400048: //RootNode
+    2100000: 'Material #80'
+    2100002: MAT_MaderaBanco
+    2100004: MAT_PatasAsiento
+    2300000: G_Asiento001
+    2300002: G_Asiento002
+    2300004: G_Asiento003
+    2300006: G_Asiento004
+    2300008: G_Asiento005
+    2300010: G_Asiento006
+    2300012: G_Asiento007
+    2300014: G_Asiento008
+    2300016: G_BaseAsiento001
+    2300018: G_BaseAsiento002
+    2300020: G_BaseAsiento003
+    2300022: G_BaseAsiento004
+    2300024: G_BaseAsiento005
+    2300026: G_BaseAsiento006
+    2300028: G_BaseAsiento007
+    2300030: G_BaseAsiento009
+    2300032: G_PatasAiento002
+    2300034: G_PatasAiento003
+    2300036: G_PatasAiento004
+    2300038: G_PatasAiento005
+    2300040: G_PatasAiento006
+    2300042: G_PatasAiento007
+    2300044: G_PatasAiento008
+    2300046: G_PatasAiento010
+    3300000: G_Asiento001
+    3300002: G_Asiento002
+    3300004: G_Asiento003
+    3300006: G_Asiento004
+    3300008: G_Asiento005
+    3300010: G_Asiento006
+    3300012: G_Asiento007
+    3300014: G_Asiento008
+    3300016: G_BaseAsiento001
+    3300018: G_BaseAsiento002
+    3300020: G_BaseAsiento003
+    3300022: G_BaseAsiento004
+    3300024: G_BaseAsiento005
+    3300026: G_BaseAsiento006
+    3300028: G_BaseAsiento007
+    3300030: G_BaseAsiento009
+    3300032: G_PatasAiento002
+    3300034: G_PatasAiento003
+    3300036: G_PatasAiento004
+    3300038: G_PatasAiento005
+    3300040: G_PatasAiento006
+    3300042: G_PatasAiento007
+    3300044: G_PatasAiento008
+    3300046: G_PatasAiento010
+    4300000: G_Asiento001
+    4300002: G_BaseAsiento001
+    4300004: G_PatasAiento002
+    4300006: G_Asiento002
+    4300008: G_BaseAsiento002
+    4300010: G_PatasAiento003
+    4300012: G_Asiento003
+    4300014: G_BaseAsiento003
+    4300016: G_PatasAiento004
+    4300018: G_Asiento004
+    4300020: G_BaseAsiento004
+    4300022: G_PatasAiento005
+    4300024: G_Asiento005
+    4300026: G_BaseAsiento005
+    4300028: G_PatasAiento006
+    4300030: G_Asiento006
+    4300032: G_BaseAsiento006
+    4300034: G_PatasAiento007
+    4300036: G_Asiento007
+    4300038: G_BaseAsiento007
+    4300040: G_PatasAiento008
+    4300042: G_Asiento008
+    4300044: G_BaseAsiento009
+    4300046: G_PatasAiento010
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_MaderaBanco
+    second: {fileID: 2100000, guid: a8adc883d3f0bcd42b2de3fd2bbcabb6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_PatasAsiento
+    second: {fileID: 2100000, guid: 4dbe56d72b1f2da4d93ee9a2c7ef26fa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #80'
+    second: {fileID: 2100000, guid: 73e9888aaf325404e977453cfa9c0c98, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
