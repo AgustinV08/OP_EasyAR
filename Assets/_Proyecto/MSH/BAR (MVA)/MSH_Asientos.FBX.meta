@@ -53,7 +53,7 @@ ModelImporter:
     400044: G_PatasAiento008
     400046: G_PatasAiento010
     400048: //RootNode
-    2100000: 'Material #80'
+    2100000: MAT_Asiento
     2100002: MAT_MaderaBanco
     2100004: MAT_PatasAsiento
     2300000: G_Asiento001
@@ -132,6 +132,11 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: MAT_Asiento
+    second: {fileID: 2100000, guid: c09128c994742be42a6379c1a5a7a6ef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: MAT_MaderaBanco
     second: {fileID: 2100000, guid: a8adc883d3f0bcd42b2de3fd2bbcabb6, type: 2}
   - first:
@@ -139,11 +144,6 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: MAT_PatasAsiento
     second: {fileID: 2100000, guid: 4dbe56d72b1f2da4d93ee9a2c7ef26fa, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: 'Material #80'
-    second: {fileID: 2100000, guid: 73e9888aaf325404e977453cfa9c0c98, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

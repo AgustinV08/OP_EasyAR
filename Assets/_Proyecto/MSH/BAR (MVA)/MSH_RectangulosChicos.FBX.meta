@@ -26,7 +26,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: MAT_Madera
-    second: {fileID: 2100000, guid: 1d10d9b265d7793499bcf1cf114ff65d, type: 2}
+    second: {fileID: 2100000, guid: b8582e68784f95349a85a158f3e3341f, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
