@@ -1,27 +1,62 @@
 fileFormatVersion: 2
-guid: e7fb80e16dcbe644ebfa28af0a436207
+guid: 808aa4bee0fdaa64482f2440a5acdb27
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: Line120
-    100002: //RootNode
-    100004: Object008
-    400000: Line120
-    400002: //RootNode
-    400004: Object008
-    2100000: MAT_VidrioVaso
-    2300000: Line120
-    2300002: Object008
-    3300000: Line120
-    3300002: Object008
-    4300000: Line120
-    4300002: Object008
+    100000: G_Copa
+    100002: G_Copa001
+    100004: G_Copa002
+    100006: G_Copa003
+    100008: G_Copa004
+    100010: G_Copa005
+    100012: G_Copa006
+    100014: G_Copa007
+    100016: G_Copa008
+    100018: //RootNode
+    400000: G_Copa
+    400002: G_Copa001
+    400004: G_Copa002
+    400006: G_Copa003
+    400008: G_Copa004
+    400010: G_Copa005
+    400012: G_Copa006
+    400014: G_Copa007
+    400016: G_Copa008
+    400018: //RootNode
+    2100000: MAT_VidrioCopa
+    2300000: G_Copa
+    2300002: G_Copa001
+    2300004: G_Copa002
+    2300006: G_Copa003
+    2300008: G_Copa004
+    2300010: G_Copa005
+    2300012: G_Copa006
+    2300014: G_Copa007
+    2300016: G_Copa008
+    3300000: G_Copa
+    3300002: G_Copa001
+    3300004: G_Copa002
+    3300006: G_Copa003
+    3300008: G_Copa004
+    3300010: G_Copa005
+    3300012: G_Copa006
+    3300014: G_Copa007
+    3300016: G_Copa008
+    4300000: G_Copa
+    4300002: G_Copa001
+    4300004: G_Copa002
+    4300006: G_Copa003
+    4300008: G_Copa004
+    4300010: G_Copa005
+    4300012: G_Copa006
+    4300014: G_Copa007
+    4300016: G_Copa008
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: MAT_VidrioVaso
-    second: {fileID: 2100000, guid: e4102baaeffa2dd4bb9e98f5231563f3, type: 2}
+      name: MAT_VidrioCopa
+    second: {fileID: 2100000, guid: 3886b85805a6b2e4b83396c197441b2b, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -61,7 +96,7 @@ ModelImporter:
     importCameras: 1
     importLights: 1
     swapUVChannels: 0
-    generateSecondaryUV: 0
+    generateSecondaryUV: 1
     useFileUnits: 1
     optimizeMeshForGPU: 1
     keepQuads: 0
