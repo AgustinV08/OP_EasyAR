@@ -1,0 +1,229 @@
+fileFormatVersion: 2
+guid: 49c7c34291a22dc4393a7fb47ad6d192
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: G_Botella-002
+    100002: G_Botella-003
+    100004: G_Botella-004
+    100006: G_Botella-005
+    100008: G_Botella-006
+    100010: G_Botella-007
+    100012: G_Botella-008
+    100014: G_Botella-009
+    100016: G_Botella-010
+    100018: G_Botella-011
+    100020: G_Botella-012
+    100022: G_Botella-013
+    100024: G_Botella-1
+    100026: G_DentroBotella
+    100028: G_DentroBotella001
+    100030: G_DentroBotella002
+    100032: G_DentroBotella003
+    100034: G_DentroBotella004
+    100036: G_DentroBotella005
+    100038: G_DentroBotella006
+    100040: G_DentroBotella007
+    100042: G_DentroBotella008
+    100044: G_DentroBotella009
+    100046: G_DentroBotella010
+    100048: G_DentroBotella011
+    100050: G_DentroBotella012
+    100052: //RootNode
+    400000: G_Botella-002
+    400002: G_Botella-003
+    400004: G_Botella-004
+    400006: G_Botella-005
+    400008: G_Botella-006
+    400010: G_Botella-007
+    400012: G_Botella-008
+    400014: G_Botella-009
+    400016: G_Botella-010
+    400018: G_Botella-011
+    400020: G_Botella-012
+    400022: G_Botella-013
+    400024: G_Botella-1
+    400026: G_DentroBotella
+    400028: G_DentroBotella001
+    400030: G_DentroBotella002
+    400032: G_DentroBotella003
+    400034: G_DentroBotella004
+    400036: G_DentroBotella005
+    400038: G_DentroBotella006
+    400040: G_DentroBotella007
+    400042: G_DentroBotella008
+    400044: G_DentroBotella009
+    400046: G_DentroBotella010
+    400048: G_DentroBotella011
+    400050: G_DentroBotella012
+    400052: //RootNode
+    2100000: MAT_VidrioVaso
+    2300000: G_Botella-002
+    2300002: G_Botella-003
+    2300004: G_Botella-004
+    2300006: G_Botella-005
+    2300008: G_Botella-006
+    2300010: G_Botella-007
+    2300012: G_Botella-008
+    2300014: G_Botella-009
+    2300016: G_Botella-010
+    2300018: G_Botella-011
+    2300020: G_Botella-012
+    2300022: G_Botella-013
+    2300024: G_Botella-1
+    2300026: G_DentroBotella
+    2300028: G_DentroBotella001
+    2300030: G_DentroBotella002
+    2300032: G_DentroBotella003
+    2300034: G_DentroBotella004
+    2300036: G_DentroBotella005
+    2300038: G_DentroBotella006
+    2300040: G_DentroBotella007
+    2300042: G_DentroBotella008
+    2300044: G_DentroBotella009
+    2300046: G_DentroBotella010
+    2300048: G_DentroBotella011
+    2300050: G_DentroBotella012
+    3300000: G_Botella-002
+    3300002: G_Botella-003
+    3300004: G_Botella-004
+    3300006: G_Botella-005
+    3300008: G_Botella-006
+    3300010: G_Botella-007
+    3300012: G_Botella-008
+    3300014: G_Botella-009
+    3300016: G_Botella-010
+    3300018: G_Botella-011
+    3300020: G_Botella-012
+    3300022: G_Botella-013
+    3300024: G_Botella-1
+    3300026: G_DentroBotella
+    3300028: G_DentroBotella001
+    3300030: G_DentroBotella002
+    3300032: G_DentroBotella003
+    3300034: G_DentroBotella004
+    3300036: G_DentroBotella005
+    3300038: G_DentroBotella006
+    3300040: G_DentroBotella007
+    3300042: G_DentroBotella008
+    3300044: G_DentroBotella009
+    3300046: G_DentroBotella010
+    3300048: G_DentroBotella011
+    3300050: G_DentroBotella012
+    4300000: G_Botella-1
+    4300002: G_DentroBotella
+    4300004: G_DentroBotella001
+    4300006: G_Botella-002
+    4300008: G_DentroBotella002
+    4300010: G_Botella-003
+    4300012: G_DentroBotella003
+    4300014: G_Botella-004
+    4300016: G_DentroBotella004
+    4300018: G_Botella-005
+    4300020: G_DentroBotella005
+    4300022: G_Botella-006
+    4300024: G_DentroBotella006
+    4300026: G_Botella-007
+    4300028: G_DentroBotella007
+    4300030: G_Botella-008
+    4300032: G_DentroBotella008
+    4300034: G_Botella-009
+    4300036: G_DentroBotella009
+    4300038: G_Botella-010
+    4300040: G_DentroBotella010
+    4300042: G_Botella-011
+    4300044: G_DentroBotella011
+    4300046: G_Botella-012
+    4300048: G_DentroBotella012
+    4300050: G_Botella-013
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_VidrioVaso
+    second: {fileID: 2100000, guid: bf8f74286fdec1d43a63611a14149111, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
