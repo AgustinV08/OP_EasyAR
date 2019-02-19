@@ -1,0 +1,149 @@
+fileFormatVersion: 2
+guid: 5b83a64e803e16f449f665eeb7ba5a30
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: G_LlaveAgua
+    100002: G_LlaveAgua001
+    100004: G_LlaveAgua002
+    100006: G_LlaveAgua003
+    100008: G_LlaveAgua004
+    100010: G_LlaveAgua005
+    100012: G_LlaveAgua006
+    100014: G_LlaveAgua007
+    100016: G_LlaveAgua008
+    100018: G_LlaveAgua009
+    100020: //RootNode
+    400000: G_LlaveAgua
+    400002: G_LlaveAgua001
+    400004: G_LlaveAgua002
+    400006: G_LlaveAgua003
+    400008: G_LlaveAgua004
+    400010: G_LlaveAgua005
+    400012: G_LlaveAgua006
+    400014: G_LlaveAgua007
+    400016: G_LlaveAgua008
+    400018: G_LlaveAgua009
+    400020: //RootNode
+    2100000: MAT_Llaves
+    2300000: G_LlaveAgua
+    2300002: G_LlaveAgua001
+    2300004: G_LlaveAgua002
+    2300006: G_LlaveAgua003
+    2300008: G_LlaveAgua004
+    2300010: G_LlaveAgua005
+    2300012: G_LlaveAgua006
+    2300014: G_LlaveAgua007
+    2300016: G_LlaveAgua008
+    2300018: G_LlaveAgua009
+    3300000: G_LlaveAgua
+    3300002: G_LlaveAgua001
+    3300004: G_LlaveAgua002
+    3300006: G_LlaveAgua003
+    3300008: G_LlaveAgua004
+    3300010: G_LlaveAgua005
+    3300012: G_LlaveAgua006
+    3300014: G_LlaveAgua007
+    3300016: G_LlaveAgua008
+    3300018: G_LlaveAgua009
+    4300000: G_LlaveAgua
+    4300002: G_LlaveAgua001
+    4300004: G_LlaveAgua002
+    4300006: G_LlaveAgua003
+    4300008: G_LlaveAgua004
+    4300010: G_LlaveAgua005
+    4300012: G_LlaveAgua006
+    4300014: G_LlaveAgua007
+    4300016: G_LlaveAgua008
+    4300018: G_LlaveAgua009
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Llaves
+    second: {fileID: 2100000, guid: 779ce61384af1914fbcba82de5446f0a, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 4
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
