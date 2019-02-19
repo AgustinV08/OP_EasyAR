@@ -16,6 +16,7 @@ public class AnimacionesObjetos : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        // Igualamos la variable a la camara principal en escena
         cam = Camera.main;
     }
 
