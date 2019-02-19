@@ -18,6 +18,9 @@ public class AnimacionesObjetos : MonoBehaviour
     {
         // Igualamos la variable a la camara principal en escena
         cam = Camera.main;
+
+        // Conseguimos el animator del objeto
+        anim = GetComponent<Animator>();
     }
 
     // Update is called once per frame

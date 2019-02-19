@@ -32,7 +32,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d0a1af01-8e15-4e64-8668-273d0b5d5162" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/_Proyecto/Animaciones/Bar (MVA)/Bar.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Proyecto/Animaciones/Bar (MVA)/Bar.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Proyecto/Scenes/Leo/Bar (MVA) 2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Proyecto/Scenes/Leo/Bar (MVA) 2.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Proyecto/Scripts/AnimacionesObjetos.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Proyecto/Scripts/AnimacionesObjetos.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,16 +68,16 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/_Proyecto/Scripts/AnimacionesObjetos.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="64" selection-start-line="18" selection-start-column="64" selection-end-line="18" selection-end-column="64" />
+            <state relative-caret-position="323">
+              <caret line="21" column="45" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
               <folding>
-                <marker date="1550605288429" expanded="true" signature="6:78" ph="..." />
-                <marker date="1550605288429" expanded="true" signature="127:1438" ph="{...}" />
-                <marker date="1550605288429" expanded="true" signature="411:515" ph="{...}" />
-                <marker date="1550605288429" expanded="true" signature="573:1436" ph="{...}" />
-                <marker date="1550605288429" expanded="true" signature="613:1430" ph="{...}" />
-                <marker date="1550605288429" expanded="true" signature="721:1420" ph="{...}" />
-                <marker date="1550605288429" expanded="true" signature="1250:1406" ph="{...}" />
+                <marker date="1550605725925" expanded="true" signature="6:78" ph="..." />
+                <marker date="1550605725925" expanded="true" signature="127:1526" ph="{...}" />
+                <marker date="1550605725925" expanded="true" signature="411:603" ph="{...}" />
+                <marker date="1550605725925" expanded="true" signature="661:1524" ph="{...}" />
+                <marker date="1550605725925" expanded="true" signature="701:1518" ph="{...}" />
+                <marker date="1550605725925" expanded="true" signature="809:1508" ph="{...}" />
+                <marker date="1550605725925" expanded="true" signature="1338:1494" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -82,8 +86,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/_Proyecto/Scripts/InputTouch.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="59" column="30" selection-start-line="59" selection-start-column="30" selection-end-line="59" selection-end-column="30" />
+            <state relative-caret-position="176">
+              <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
               <folding>
                 <marker date="1550600746713" expanded="false" signature="6:97" ph="..." />
                 <marker date="1550600746713" expanded="true" signature="138:3176" ph="{...}" />
@@ -284,12 +288,12 @@
       <workItem from="1549916142031" duration="66000" />
       <workItem from="1549985231372" duration="5546000" />
       <workItem from="1549992167350" duration="1216000" />
-      <workItem from="1550604264506" duration="932000" />
+      <workItem from="1550604264506" duration="1364000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16858000" />
+    <option name="totallyTimeSpent" value="17290000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -447,30 +451,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/_Proyecto/Scripts/InputTouch.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="59" column="30" selection-start-line="59" selection-start-column="30" selection-end-line="59" selection-end-column="30" />
-          <folding>
-            <marker date="1550600746713" expanded="false" signature="6:97" ph="..." />
-            <marker date="1550600746713" expanded="true" signature="138:3176" ph="{...}" />
-            <marker date="1550600746713" expanded="true" signature="442:481" ph="{...}" />
-            <marker date="1550600746713" expanded="true" signature="539:3174" ph="{...}" />
-            <marker date="1550600746713" expanded="true" signature="578:3168" ph="{...}" />
-            <marker date="1550600746713" expanded="true" signature="690:2112" ph="{...}" />
-            <marker date="1550600746713" expanded="true" signature="721:890" ph="/* Debug.Log(&quot;Input Start&quot;); ... */" />
-            <marker date="1550600746713" expanded="true" signature="907:1150" ph="/* Vector3 Posicion = cam.ScreenToWorldPoint(Input.GetTouch(0).position); ... */" />
-            <marker date="1550600746713" expanded="true" signature="1168:1242" ph="/* Camara 3D ... */" />
-            <marker date="1550600746713" expanded="true" signature="1785:2098" ph="{...}" />
-            <marker date="1550600746713" expanded="true" signature="2231:2304" ph="{...}" />
-            <marker date="1550600746713" expanded="true" signature="2435:2993" ph="{...}" />
-            <marker date="1550600746713" expanded="true" signature="2466:2594" ph="/* Debug.Log(&quot;Input Stationary&quot;); ... */" />
-            <marker date="1550600746713" expanded="true" signature="2611:2979" ph="/* Vector3 Posicion = Camera.main.ScreenToWorldPoint(Input.GetTouch(0).position); ... */" />
-            <marker date="1550600746713" expanded="true" signature="3086:3158" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/_Proyecto/Scripts/Bar.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -495,18 +475,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/_Proyecto/Scripts/InputTouch.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+          <folding>
+            <marker date="1550600746713" expanded="false" signature="6:97" ph="..." />
+            <marker date="1550600746713" expanded="true" signature="138:3176" ph="{...}" />
+            <marker date="1550600746713" expanded="true" signature="442:481" ph="{...}" />
+            <marker date="1550600746713" expanded="true" signature="539:3174" ph="{...}" />
+            <marker date="1550600746713" expanded="true" signature="578:3168" ph="{...}" />
+            <marker date="1550600746713" expanded="true" signature="690:2112" ph="{...}" />
+            <marker date="1550600746713" expanded="true" signature="721:890" ph="/* Debug.Log(&quot;Input Start&quot;); ... */" />
+            <marker date="1550600746713" expanded="true" signature="907:1150" ph="/* Vector3 Posicion = cam.ScreenToWorldPoint(Input.GetTouch(0).position); ... */" />
+            <marker date="1550600746713" expanded="true" signature="1168:1242" ph="/* Camara 3D ... */" />
+            <marker date="1550600746713" expanded="true" signature="1785:2098" ph="{...}" />
+            <marker date="1550600746713" expanded="true" signature="2231:2304" ph="{...}" />
+            <marker date="1550600746713" expanded="true" signature="2435:2993" ph="{...}" />
+            <marker date="1550600746713" expanded="true" signature="2466:2594" ph="/* Debug.Log(&quot;Input Stationary&quot;); ... */" />
+            <marker date="1550600746713" expanded="true" signature="2611:2979" ph="/* Vector3 Posicion = Camera.main.ScreenToWorldPoint(Input.GetTouch(0).position); ... */" />
+            <marker date="1550600746713" expanded="true" signature="3086:3158" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/_Proyecto/Scripts/AnimacionesObjetos.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="64" selection-start-line="18" selection-start-column="64" selection-end-line="18" selection-end-column="64" />
+        <state relative-caret-position="323">
+          <caret line="21" column="45" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
           <folding>
-            <marker date="1550605288429" expanded="true" signature="6:78" ph="..." />
-            <marker date="1550605288429" expanded="true" signature="127:1438" ph="{...}" />
-            <marker date="1550605288429" expanded="true" signature="411:515" ph="{...}" />
-            <marker date="1550605288429" expanded="true" signature="573:1436" ph="{...}" />
-            <marker date="1550605288429" expanded="true" signature="613:1430" ph="{...}" />
-            <marker date="1550605288429" expanded="true" signature="721:1420" ph="{...}" />
-            <marker date="1550605288429" expanded="true" signature="1250:1406" ph="{...}" />
+            <marker date="1550605725925" expanded="true" signature="6:78" ph="..." />
+            <marker date="1550605725925" expanded="true" signature="127:1526" ph="{...}" />
+            <marker date="1550605725925" expanded="true" signature="411:603" ph="{...}" />
+            <marker date="1550605725925" expanded="true" signature="661:1524" ph="{...}" />
+            <marker date="1550605725925" expanded="true" signature="701:1518" ph="{...}" />
+            <marker date="1550605725925" expanded="true" signature="809:1508" ph="{...}" />
+            <marker date="1550605725925" expanded="true" signature="1338:1494" ph="{...}" />
           </folding>
         </state>
       </provider>
