@@ -24,6 +24,7 @@ public class AnimacionesObjetos : MonoBehaviour
     {
         if (Input.touchCount > 0)
         {
+            // Al pulsar la pantalla
             if (Input.GetTouch(0).phase == TouchPhase.Began)
             {
                 // Objeto con el cual el Raycast colisionara
