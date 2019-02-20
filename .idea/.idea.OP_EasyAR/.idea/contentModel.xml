@@ -11,6 +11,7 @@
           <e p="Scripts" t="Include">
             <e p="AnimacionesObjetos.cs" t="Include" />
             <e p="CambiarEscena.cs" t="Include" />
+            <e p="FuegoLibro.cs" t="Include" />
             <e p="InputForce.cs" t="Include" />
             <e p="InputTouch.cs" t="Include" />
             <e p="MoverCamara.cs" t="Include" />
