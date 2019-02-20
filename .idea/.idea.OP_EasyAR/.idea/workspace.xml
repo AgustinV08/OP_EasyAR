@@ -80,8 +80,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/_Proyecto/Scripts/FuegoLibro.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="57" column="67" selection-start-line="57" selection-start-column="67" selection-end-line="57" selection-end-column="67" />
+            <state relative-caret-position="18">
+              <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
               <folding>
                 <marker date="1550682474352" expanded="false" signature="6:78" ph="..." />
                 <marker date="1550682474352" expanded="true" signature="119:2220" ph="{...}" />
@@ -218,8 +218,8 @@
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="240" />
     <option name="y" value="125" />
-    <option name="width" value="1938" />
-    <option name="height" value="1048" />
+    <option name="width" value="1440" />
+    <option name="height" value="775" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -306,12 +306,12 @@
       <workItem from="1549985231372" duration="5546000" />
       <workItem from="1549992167350" duration="1216000" />
       <workItem from="1550604264506" duration="2588000" />
-      <workItem from="1550677398095" duration="6139000" />
+      <workItem from="1550677398095" duration="8227000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24653000" />
+    <option name="totallyTimeSpent" value="26741000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -523,8 +523,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/_Proyecto/Scripts/FuegoLibro.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="57" column="67" selection-start-line="57" selection-start-column="67" selection-end-line="57" selection-end-column="67" />
+        <state relative-caret-position="18">
+          <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
           <folding>
             <marker date="1550682474352" expanded="false" signature="6:78" ph="..." />
             <marker date="1550682474352" expanded="true" signature="119:2220" ph="{...}" />
