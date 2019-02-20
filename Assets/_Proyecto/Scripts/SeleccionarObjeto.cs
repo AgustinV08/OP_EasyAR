@@ -4,13 +4,16 @@ using UnityEngine;
 
 public class SeleccionarObjeto : MonoBehaviour
 {
+    // Layer del objeto
     public LayerMask mascara;
 
+    //Variable para controlar la camara
     public Camera cam;
     
     // Start is called before the first frame update
     void Start()
     {
+        // Igualamos la vabariable de la camara a la camara principal en escena
         cam = Camera.main;
     }
 
@@ -39,15 +42,21 @@ public class SeleccionarObjeto : MonoBehaviour
                 }*/
 
                 //Camara 3D
+                
+                // Objeto con el cual el RayCast colisiono
                 RaycastHit hit;
 
+                // Posicion de donde hicimos el toque
                 Vector3 touchPos = Input.GetTouch(0).position;
                 touchPos.z = 0;
                 
+                // Rayo que se genera donde tocamos la pantalla
                 Ray rayo = cam.ScreenPointToRay(touchPos);
 
+                // Si se colisiona con un objeto con el layer dado
                 if (Physics.Raycast(rayo, out hit, Mathf.Infinity, mascara))
                 {
+                    // Cambiamos la posicion del objeto tocado a donde tocamos la pantalla
                     touchPos = hit.point;
                     touchPos.z = 0;
                     hit.transform.position = touchPos;
