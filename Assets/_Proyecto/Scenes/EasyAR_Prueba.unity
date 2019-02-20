@@ -728,7 +728,7 @@ GameObject:
   - component: {fileID: 608359530}
   - component: {fileID: 608359529}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: SceneManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1182,7 +1182,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 11421212, guid: c633cd5d69c74234cb0dfa8e8bd5b984, type: 3}
       propertyPath: simultaneousNum
-      value: 6
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 11421212, guid: c633cd5d69c74234cb0dfa8e8bd5b984, type: 3}
+      propertyPath: Mode
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 416544, guid: c633cd5d69c74234cb0dfa8e8bd5b984, type: 3}
       propertyPath: m_LocalPosition.x

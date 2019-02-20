@@ -74,6 +74,10 @@ MonoBehaviour:
   - {fileID: 6958940787631691491}
   - {fileID: 6958940786809760449}
   - {fileID: 6958940788485854623}
+  ParticulasFuego:
+  - {fileID: 6958940787631691491}
+  - {fileID: 6958940786809760449}
+  - {fileID: 6958940788485854623}
 --- !u!95 &6247904226414424263
 Animator:
   serializedVersion: 3

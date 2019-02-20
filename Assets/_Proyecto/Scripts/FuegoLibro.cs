@@ -13,6 +13,9 @@ public class FuegoLibro : MonoBehaviour
     // Lista para las particulas
     public List<ParticleSystem> Fuego = new List<ParticleSystem>();
 
+    // Arreglo de las particulas que se usaran
+    public ParticleSystem[] ParticulasFuego;
+
     // Contador para saber en que particula estamos
     private int Contador;
     
@@ -45,10 +48,10 @@ public class FuegoLibro : MonoBehaviour
                 // Si el rayo colisiona con el objeto con el layer indicado
                 if (Physics.Raycast(rayo, out hit, Mathf.Infinity, mascara))
                 {
-                    if (Contador <= Fuego.Count - 1)
+                    if (Contador <= ParticulasFuego.Length)
                     {
                         // Reproducimos la particula
-                        Fuego[Contador].Play();
+                        ParticulasFuego[Contador].Play();
 
                         // Nos vamos a la siguiente particula de la lista
                         Contador++;
@@ -56,10 +59,10 @@ public class FuegoLibro : MonoBehaviour
                     else
                     {
                         // Cuando ya no hay particulas para reproducir
-                        for (int i = 0; i < Fuego.Count; i++)
+                        for (int i = 0; i < ParticulasFuego.Length; i++)
                         {
                             // Detenemos todas las particulas
-                            Fuego[i].Stop();
+                            ParticulasFuego[i].Stop();
 
                             // Reiniciamos el contador
                             Contador = 0;
