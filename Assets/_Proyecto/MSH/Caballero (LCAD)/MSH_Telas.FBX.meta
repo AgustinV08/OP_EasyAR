@@ -1,15 +1,37 @@
 fileFormatVersion: 2
-guid: 877a21102bb4a2849b3b80750ef07775
+guid: c0fa21d8726b5f149958eb841937cdba
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: //RootNode
-    400000: //RootNode
-    2100000: MAT_General
-    2300000: //RootNode
-    3300000: //RootNode
-    4300000: G_Alfombra-central
-  externalObjects: {}
+    100000: G_Tela-1
+    100002: G_Tela-2
+    100004: G_Tela-3
+    100006: G_Tela-4
+    100008: //RootNode
+    400000: G_Tela-1
+    400002: G_Tela-2
+    400004: G_Tela-3
+    400006: G_Tela-4
+    400008: //RootNode
+    2100000: MAT_Telas
+    2300000: G_Tela-1
+    2300002: G_Tela-2
+    2300004: G_Tela-3
+    2300006: G_Tela-4
+    3300000: G_Tela-1
+    3300002: G_Tela-2
+    3300004: G_Tela-3
+    3300006: G_Tela-4
+    4300000: G_Tela-3
+    4300002: G_Tela-4
+    4300004: G_Tela-1
+    4300006: G_Tela-2
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MAT_Telas
+    second: {fileID: 2100000, guid: 1eb4c6231d5fb614595c5acbcae0635e, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
