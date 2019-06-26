@@ -47,7 +47,17 @@ ModelImporter:
     4300002: Sphere013
     4300004: Object001
     9500000: //RootNode
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #61'
+    second: {fileID: 2100000, guid: 1d55b1151eb296d4ba3ddd7d6d7a782c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #69'
+    second: {fileID: 2100000, guid: 5e488f5554dcead41a7fda70b8bd03fe, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

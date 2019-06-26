@@ -167,7 +167,17 @@ ModelImporter:
     7400000: Anim-Gato-1
     9500000: //RootNode
     13700000: G_Gato-skin
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #64'
+    second: {fileID: 2100000, guid: f6d8222e667617c4d872cd5bcc5bda15, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #71'
+    second: {fileID: 2100000, guid: bb6f29e61b714e742ba5ecb3df5e74f0, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
