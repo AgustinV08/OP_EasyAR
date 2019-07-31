@@ -193,7 +193,7 @@ GameObject:
   - component: {fileID: 380808216}
   - component: {fileID: 380808215}
   m_Layer: 0
-  m_Name: Particle System
+  m_Name: PS_Meteoritos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -276,7 +276,7 @@ ParticleSystem:
   ringBufferMode: 0
   ringBufferLoopRange: {x: 0, y: 1}
   looping: 1
-  prewarm: 0
+  prewarm: 1
   playOnAwake: 1
   useUnscaledTime: 0
   autoRandomSeed: 1
@@ -1366,7 +1366,7 @@ ParticleSystem:
     x:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0
+      scalar: -0.10157816
       minScalar: 0
       maxCurve:
         serializedVersion: 2
@@ -1419,7 +1419,7 @@ ParticleSystem:
     y:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0
+      scalar: 0.3351032
       minScalar: 0
       maxCurve:
         serializedVersion: 2
@@ -1522,7 +1522,7 @@ ParticleSystem:
         m_PreInfinity: 2
         m_PostInfinity: 2
         m_RotationOrder: 4
-    separateAxes: 0
+    separateAxes: 1
   ColorModule:
     enabled: 0
     gradient:
@@ -3504,7 +3504,7 @@ ParticleSystem:
     x:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0
+      scalar: 0.681202
       minScalar: 0
       maxCurve:
         serializedVersion: 2
@@ -3557,7 +3557,7 @@ ParticleSystem:
     y:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0
+      scalar: 0.35255653
       minScalar: 0
       maxCurve:
         serializedVersion: 2
@@ -3660,7 +3660,7 @@ ParticleSystem:
         m_PreInfinity: 2
         m_PostInfinity: 2
         m_RotationOrder: 4
-    separateAxes: 0
+    separateAxes: 1
     range: {x: 0, y: 1}
   ColorBySpeedModule:
     enabled: 0
