@@ -1,0 +1,275 @@
+fileFormatVersion: 2
+guid: 6eeb50e4800132446980669621423176
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: RIG_Character1_FPS
+    100004: RIG_Character1_FPS Head
+    100006: RIG_Character1_FPS L Calf
+    100008: RIG_Character1_FPS L Clavicle
+    100010: RIG_Character1_FPS L Finger0
+    100012: RIG_Character1_FPS L Finger01
+    100014: RIG_Character1_FPS L Finger02
+    100016: RIG_Character1_FPS L Finger1
+    100018: RIG_Character1_FPS L Finger11
+    100020: RIG_Character1_FPS L Finger12
+    100022: RIG_Character1_FPS L Finger2
+    100024: RIG_Character1_FPS L Finger21
+    100026: RIG_Character1_FPS L Finger22
+    100028: RIG_Character1_FPS L Finger3
+    100030: RIG_Character1_FPS L Finger31
+    100032: RIG_Character1_FPS L Finger32
+    100034: RIG_Character1_FPS L Finger4
+    100036: RIG_Character1_FPS L Finger41
+    100038: RIG_Character1_FPS L Finger42
+    100040: RIG_Character1_FPS L Foot
+    100042: RIG_Character1_FPS L Forearm
+    100044: RIG_Character1_FPS L ForeTwist
+    100046: RIG_Character1_FPS L ForeTwist1
+    100048: RIG_Character1_FPS L ForeTwist2
+    100050: RIG_Character1_FPS L Hand
+    100052: RIG_Character1_FPS L Thigh
+    100054: RIG_Character1_FPS L Toe0
+    100056: RIG_Character1_FPS L UpperArm
+    100058: RIG_Character1_FPS LCalfTwist
+    100060: RIG_Character1_FPS LCalfTwist1
+    100062: RIG_Character1_FPS LCalfTwist2
+    100064: RIG_Character1_FPS LThighTwist
+    100066: RIG_Character1_FPS LThighTwist1
+    100068: RIG_Character1_FPS LThighTwist2
+    100070: RIG_Character1_FPS LUpArmTwist
+    100072: RIG_Character1_FPS LUpArmTwist1
+    100074: RIG_Character1_FPS LUpArmTwist2
+    100076: RIG_Character1_FPS Neck
+    100078: RIG_Character1_FPS Pelvis
+    100080: RIG_Character1_FPS R Calf
+    100082: RIG_Character1_FPS R Clavicle
+    100084: RIG_Character1_FPS R Finger0
+    100086: RIG_Character1_FPS R Finger01
+    100088: RIG_Character1_FPS R Finger02
+    100090: RIG_Character1_FPS R Finger1
+    100092: RIG_Character1_FPS R Finger11
+    100094: RIG_Character1_FPS R Finger12
+    100096: RIG_Character1_FPS R Finger2
+    100098: RIG_Character1_FPS R Finger21
+    100100: RIG_Character1_FPS R Finger22
+    100102: RIG_Character1_FPS R Finger3
+    100104: RIG_Character1_FPS R Finger31
+    100106: RIG_Character1_FPS R Finger32
+    100108: RIG_Character1_FPS R Finger4
+    100110: RIG_Character1_FPS R Finger41
+    100112: RIG_Character1_FPS R Finger42
+    100114: RIG_Character1_FPS R Foot
+    100116: RIG_Character1_FPS R Forearm
+    100118: RIG_Character1_FPS R ForeTwist
+    100120: RIG_Character1_FPS R ForeTwist1
+    100122: RIG_Character1_FPS R ForeTwist2
+    100124: RIG_Character1_FPS R Hand
+    100126: RIG_Character1_FPS R Thigh
+    100128: RIG_Character1_FPS R Toe0
+    100130: RIG_Character1_FPS R UpperArm
+    100132: RIG_Character1_FPS RCalfTwist
+    100134: RIG_Character1_FPS RCalfTwist1
+    100136: RIG_Character1_FPS RCalfTwist2
+    100138: RIG_Character1_FPS RThighTwist
+    100140: RIG_Character1_FPS RThighTwist1
+    100142: RIG_Character1_FPS RThighTwist2
+    100144: RIG_Character1_FPS RUpArmTwist
+    100146: RIG_Character1_FPS RUpArmTwist1
+    100148: RIG_Character1_FPS RUpArmTwist2
+    100150: RIG_Character1_FPS Spine
+    100152: RIG_Character1_FPS Spine1
+    400000: //RootNode
+    400002: RIG_Character1_FPS
+    400004: RIG_Character1_FPS Head
+    400006: RIG_Character1_FPS L Calf
+    400008: RIG_Character1_FPS L Clavicle
+    400010: RIG_Character1_FPS L Finger0
+    400012: RIG_Character1_FPS L Finger01
+    400014: RIG_Character1_FPS L Finger02
+    400016: RIG_Character1_FPS L Finger1
+    400018: RIG_Character1_FPS L Finger11
+    400020: RIG_Character1_FPS L Finger12
+    400022: RIG_Character1_FPS L Finger2
+    400024: RIG_Character1_FPS L Finger21
+    400026: RIG_Character1_FPS L Finger22
+    400028: RIG_Character1_FPS L Finger3
+    400030: RIG_Character1_FPS L Finger31
+    400032: RIG_Character1_FPS L Finger32
+    400034: RIG_Character1_FPS L Finger4
+    400036: RIG_Character1_FPS L Finger41
+    400038: RIG_Character1_FPS L Finger42
+    400040: RIG_Character1_FPS L Foot
+    400042: RIG_Character1_FPS L Forearm
+    400044: RIG_Character1_FPS L ForeTwist
+    400046: RIG_Character1_FPS L ForeTwist1
+    400048: RIG_Character1_FPS L ForeTwist2
+    400050: RIG_Character1_FPS L Hand
+    400052: RIG_Character1_FPS L Thigh
+    400054: RIG_Character1_FPS L Toe0
+    400056: RIG_Character1_FPS L UpperArm
+    400058: RIG_Character1_FPS LCalfTwist
+    400060: RIG_Character1_FPS LCalfTwist1
+    400062: RIG_Character1_FPS LCalfTwist2
+    400064: RIG_Character1_FPS LThighTwist
+    400066: RIG_Character1_FPS LThighTwist1
+    400068: RIG_Character1_FPS LThighTwist2
+    400070: RIG_Character1_FPS LUpArmTwist
+    400072: RIG_Character1_FPS LUpArmTwist1
+    400074: RIG_Character1_FPS LUpArmTwist2
+    400076: RIG_Character1_FPS Neck
+    400078: RIG_Character1_FPS Pelvis
+    400080: RIG_Character1_FPS R Calf
+    400082: RIG_Character1_FPS R Clavicle
+    400084: RIG_Character1_FPS R Finger0
+    400086: RIG_Character1_FPS R Finger01
+    400088: RIG_Character1_FPS R Finger02
+    400090: RIG_Character1_FPS R Finger1
+    400092: RIG_Character1_FPS R Finger11
+    400094: RIG_Character1_FPS R Finger12
+    400096: RIG_Character1_FPS R Finger2
+    400098: RIG_Character1_FPS R Finger21
+    400100: RIG_Character1_FPS R Finger22
+    400102: RIG_Character1_FPS R Finger3
+    400104: RIG_Character1_FPS R Finger31
+    400106: RIG_Character1_FPS R Finger32
+    400108: RIG_Character1_FPS R Finger4
+    400110: RIG_Character1_FPS R Finger41
+    400112: RIG_Character1_FPS R Finger42
+    400114: RIG_Character1_FPS R Foot
+    400116: RIG_Character1_FPS R Forearm
+    400118: RIG_Character1_FPS R ForeTwist
+    400120: RIG_Character1_FPS R ForeTwist1
+    400122: RIG_Character1_FPS R ForeTwist2
+    400124: RIG_Character1_FPS R Hand
+    400126: RIG_Character1_FPS R Thigh
+    400128: RIG_Character1_FPS R Toe0
+    400130: RIG_Character1_FPS R UpperArm
+    400132: RIG_Character1_FPS RCalfTwist
+    400134: RIG_Character1_FPS RCalfTwist1
+    400136: RIG_Character1_FPS RCalfTwist2
+    400138: RIG_Character1_FPS RThighTwist
+    400140: RIG_Character1_FPS RThighTwist1
+    400142: RIG_Character1_FPS RThighTwist2
+    400144: RIG_Character1_FPS RUpArmTwist
+    400146: RIG_Character1_FPS RUpArmTwist1
+    400148: RIG_Character1_FPS RUpArmTwist2
+    400150: RIG_Character1_FPS Spine
+    400152: RIG_Character1_FPS Spine1
+    7400000: Anim_MonoInterfaz-1
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Anim_MonoInterfaz-1
+      takeName: Take 001
+      firstFrame: -1
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.001
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
