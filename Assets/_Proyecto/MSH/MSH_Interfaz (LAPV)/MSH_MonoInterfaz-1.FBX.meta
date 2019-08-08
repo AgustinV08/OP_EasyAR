@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: aa70d4c5e1d7fe04292fdfbe85a22c9f
+guid: bf9895570a1652c4e862950c9c5350c3
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -157,7 +157,7 @@ ModelImporter:
     400148: RIG_Character1_FPS RUpArmTwist2
     400150: RIG_Character1_FPS Spine
     400152: RIG_Character1_FPS Spine1
-    7400000: Anim_MonoInterfaz-2
+    7400000: Anim_MonoInterfaz-1
     9500000: //RootNode
   externalObjects: {}
   materials:
@@ -188,9 +188,9 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Anim_MonoInterfaz-2
+      name: Anim_MonoInterfaz-1
       takeName: Take 001
-      firstFrame: -1
+      firstFrame: 0
       lastFrame: 120
       wrapMode: 0
       orientationOffsetY: 0
