@@ -64,7 +64,37 @@ ModelImporter:
     7400000: Anim_Mentor-2
     9500000: //RootNode
     13700000: MOD_Mentor_LP
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Emision_Lente
+    second: {fileID: 2100000, guid: 03b19f4e3fb2cb045907b44109daced2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Emision_Turbina
+    second: {fileID: 2100000, guid: 1df2984b01998394e93aa18328661a82, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Emsion_Focos
+    second: {fileID: 2100000, guid: 6ce49356bab355a4f9f0363c15b48d24, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lente
+    second: {fileID: 2100000, guid: 2ff4b837b81a76a409114a8d319c9300, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: c78de5c0c3e808c44b98cc8c13f9ba12, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SH_Mentor
+    second: {fileID: 2100000, guid: d4945dce80ecd0f48b7ed84cda2b4b8f, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
