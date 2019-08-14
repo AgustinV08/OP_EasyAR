@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 7efe2e336926088498a9f684cc866bcd
+guid: b1f8578141f8db046a2ed676317465e0
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -111,7 +111,7 @@ ModelImporter:
     4300006: Sphere002
     4300008: Sphere004
     4300010: Sphere003
-    7400000: ANIM_Nave
+    7400000: Anim_Nave-3
     9500000: //RootNode
     13700000: Nave
   externalObjects:
@@ -158,10 +158,10 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: ANIM_Nave
+      name: Anim_Nave-3
       takeName: Take 001
       firstFrame: 0
-      lastFrame: 114
+      lastFrame: 140
       wrapMode: 0
       orientationOffsetY: 0
       level: 0

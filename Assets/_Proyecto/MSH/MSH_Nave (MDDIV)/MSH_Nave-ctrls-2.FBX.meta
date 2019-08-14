@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 7efe2e336926088498a9f684cc866bcd
+guid: be305e82e0800b94cad686aa7eae798b
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -111,7 +111,7 @@ ModelImporter:
     4300006: Sphere002
     4300008: Sphere004
     4300010: Sphere003
-    7400000: ANIM_Nave
+    7400000: Anim_Nave-2
     9500000: //RootNode
     13700000: Nave
   externalObjects:
@@ -125,6 +125,11 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: 20 - Default
     second: {fileID: 2100000, guid: fa30670e2e56ba14cb6dc5cc8f7cc023, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Az
+    second: {fileID: 2100000, guid: 094e59237b1c4324aabbbdad9d348464, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -158,10 +163,10 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: ANIM_Nave
+      name: Anim_Nave-2
       takeName: Take 001
       firstFrame: 0
-      lastFrame: 114
+      lastFrame: 120
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
