@@ -202,8 +202,28 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: SH_Armadura
+    second: {fileID: 2100000, guid: b6ff36a3b92e0c544a07a333c2c0ad04, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SH_Brazos
+    second: {fileID: 2100000, guid: 6813d1b0075dae24d90183ba920025b5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: SH_Casco
     second: {fileID: 2100000, guid: 53ebcaf991c842340b43ee28cd2076cb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SH_Cuerpo
+    second: {fileID: 2100000, guid: a5fbb47df2e1ed2418ef9834406e0885, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SH_EmisionCasco
+    second: {fileID: 2100000, guid: d0506476e3d1dcf4782ff29e04b03867, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
