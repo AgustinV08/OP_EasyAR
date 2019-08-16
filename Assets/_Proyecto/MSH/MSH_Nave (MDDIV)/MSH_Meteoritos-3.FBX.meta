@@ -28,7 +28,12 @@ ModelImporter:
     4300006: G_Meteorito-003
     7400000: Anim_Meteoritos
     9500000: //RootNode
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #86'
+    second: {fileID: 2100000, guid: dc8b99dce1837d64283f777aacce7334, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
