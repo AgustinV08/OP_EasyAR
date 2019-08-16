@@ -4860,7 +4860,7 @@ GameObject:
   - component: {fileID: 767769061}
   - component: {fileID: 767769060}
   m_Layer: 8
-  m_Name: Area Light (1)
+  m_Name: pantalla-light (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4929,7 +4929,7 @@ GameObject:
   - component: {fileID: 794206847}
   - component: {fileID: 794206846}
   m_Layer: 8
-  m_Name: Area Light (2)
+  m_Name: pantalla-light (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6069,7 +6069,7 @@ GameObject:
   - component: {fileID: 2033514082}
   - component: {fileID: 2033514081}
   m_Layer: 8
-  m_Name: Area Light
+  m_Name: pantalla-light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
