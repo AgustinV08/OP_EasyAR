@@ -317,8 +317,7 @@ ModelImporter:
     resampleCurves: 1
     optimizeGameObjects: 0
     motionNodeName: 
-    rigImportErrors: "Avatar creation failed:\n\tTransform 'KATA_100_L' is not an
-      ancestor of 'OYA3_L'\n"
+    rigImportErrors: 
     rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
@@ -338,7 +337,7 @@ ModelImporter:
       name: CaballeroAnim
       takeName: Take 001
       firstFrame: 0
-      lastFrame: 50
+      lastFrame: 30
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
