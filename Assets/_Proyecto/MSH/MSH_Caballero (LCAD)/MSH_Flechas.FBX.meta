@@ -33,7 +33,12 @@ ModelImporter:
     4300008: G_Flecha-005
     7400000: Flechas
     9500000: //RootNode
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: 44706afc3b543f64fac99fe92ddd4412, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
