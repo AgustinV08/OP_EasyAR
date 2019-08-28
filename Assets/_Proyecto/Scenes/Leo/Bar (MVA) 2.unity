@@ -7631,7 +7631,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 705a7abf1c5c3984db13922912a77ac3, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.15
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 705a7abf1c5c3984db13922912a77ac3, type: 3}
       propertyPath: m_LocalPosition.z
@@ -7663,7 +7663,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 705a7abf1c5c3984db13922912a77ac3, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.18
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 705a7abf1c5c3984db13922912a77ac3, type: 3}
       propertyPath: m_LocalPosition.z
@@ -8326,7 +8326,7 @@ GameObject:
   - component: {fileID: 1034034254167935031}
   - component: {fileID: 1034034254167935030}
   m_Layer: 0
-  m_Name: Bar
+  m_Name: Bar (MVA)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
